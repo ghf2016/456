@@ -1,0 +1,322 @@
+﻿生成启动时间为 2018/6/12 16:59:49。
+     1>项目“D:\FFF\openmeeting3\openmeeting2\Meeting.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\OpenMeeting2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /I.\video_sdk\crash_report\include /I.\video_sdk\inc /I.\common /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /I.\Room /I.\UserList /I.\Video /IC:\Qt\4.8.6\include\ActiveQt /IC:\Qt\4.8.6\include\QtNetwork /I.\DocShare /I.\VideoMonitor /Zi /nologo /W4 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Room\RoomWdg.cpp
+         RoomWdg.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(71): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(80): warning C4127: 条件表达式是常量
+     1>d:\fff\openmeeting3\openmeeting2\room\../video_sdk/inc/ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/thread/qmutex.h(164): warning C4512: “QMutexData”: 未能生成赋值运算符
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/thread/qmutex.h(156) : 参见“QMutexData”的声明
+     1>D:\FFF\openmeeting3\openmeeting2\GeneratedFiles\ui_SeanPptProgressWdg.h(77): warning C4125: 十进制数字终止八进制转义序列
+     1>d:\fff\openmeeting3\openmeeting2\room\RoomWdg.h(29): warning C4100: “videoCodec”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\room\RoomWdg.h(29): warning C4100: “videoSize”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\room\RoomWdg.h(29): warning C4100: “bKeyFrame”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\room\RoomWdg.h(29): warning C4100: “nLen”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\room\RoomWdg.h(29): warning C4100: “pData”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(24): warning C4100: “videoCodec”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(24): warning C4100: “videoSize”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(24): warning C4100: “bKeyFrame”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(24): warning C4100: “nLen”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(24): warning C4100: “pData”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(31): warning C4100: “nMaxVolume”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(34): warning C4100: “nMaxVolume”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(36): warning C4100: “ulDataBufferTime”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(36): warning C4100: “ulRTPTime”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(36): warning C4100: “nAudioLen”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\Setting/DlgAVSetting.h(36): warning C4100: “pAudioData”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\voicetestguide\MicTestWdg.h(21): warning C4100: “audioCodec”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\voicetestguide\MicTestWdg.h(27): warning C4100: “nMaxVolume”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\voicetestguide\MicTestWdg.h(37): warning C4100: “ulDataBufferTime”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\voicetestguide\MicTestWdg.h(37): warning C4100: “ulRTPTime”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\voicetestguide\MicTestWdg.h(37): warning C4100: “nAudioLen”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\voicetestguide\MicTestWdg.h(37): warning C4100: “pAudioData”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\voicetestguide\WaveFile.h(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\vs2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>D:\FFF\openmeeting3\openmeeting2\GeneratedFiles\ui_AboutWidget.h(74): warning C4125: 十进制数字终止八进制转义序列
+     1>Room\RoomWdg.cpp(593): warning C4189: “y2”: 局部变量已初始化但不引用
+     1>Room\RoomWdg.cpp(592): warning C4189: “y”: 局部变量已初始化但不引用
+     1>Room\RoomWdg.cpp(594): warning C4189: “y3”: 局部变量已初始化但不引用
+     1>Room\RoomWdg.cpp(704): warning C4100: “result”: 未引用的形参
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(518): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(508): 编译类 模板 成员函数“void QList<T>::append(const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qstringlist.h(67): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(460): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(459): 编译类 模板 成员函数“void QVector<T>::free(QVectorTypedData<T> *)”时
+                 with
+                 [
+                     T=QTextLength
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/text/qtextformat.h(339): 参见对正在编译的类 模板 实例化“QVector<T>”的引用
+                 with
+                 [
+                     T=QTextLength
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(372): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(371): 编译类 模板 成员函数“void QList<T>::node_construct(QList<T>::Node *,const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(373): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(388): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(387): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(389): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(480): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(351): 编译类 模板 成员函数“const QPainterPath::Element &QVector<T>::at(int) const”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/painting/qpainterpath.h(254): 参见对正在编译的类 模板 实例化“QVector<T>”的引用
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(493): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(495): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(499): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(500): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(510): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(525): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(438): 编译类 模板 成员函数“QList<T> &QList<T>::operator =(const QList<T> &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(406): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(404): 编译类 模板 成员函数“QVectorData *QVector<T>::malloc(int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(460): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(459): 编译类 模板 成员函数“void QVector<T>::free(QVectorTypedData<T> *)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(724): 编译类 模板 成员函数“void QList<T>::detach_helper(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/styles/qstyleoption.h(753): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QTouchEvent::TouchPoint
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(724): 编译类 模板 成员函数“void QList<T>::detach_helper(void)”时
+                 with
+                 [
+                     T=QTouchEvent::TouchPoint
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(438): 编译类 模板 成员函数“QList<T> &QList<T>::operator =(const QList<T> &)”时
+                 with
+                 [
+                     T=QTouchEvent::TouchPoint
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/kernel/qevent.h(832): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QTouchEvent::TouchPoint
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(707): 编译类 模板 成员函数“void QList<T>::detach_helper(int)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QTouchEvent::TouchPoint
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(707): 编译类 模板 成员函数“void QList<T>::detach_helper(int)”时
+                 with
+                 [
+                     T=QTouchEvent::TouchPoint
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\\OpenMeeting2.exe" /NOLOGO /LIBPATH:.\video_sdk\crash_report\lib /LIBPATH:.\video_sdk\lib\Debug /LIBPATH:C:\Qt\4.8.6\lib CrashRpt1402d.lib qtmaind.lib QtCored4.lib QtGuid4.lib ZYMediaFrame.lib ZYMediaStream.lib MeetingFrame.lib QAxContainerd.lib zdll.lib quazip.lib QtNetworkd4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OpenMeeting2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\OpenMeeting2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\OpenMeeting2.lib" /MACHINE:X86 Debug\Meeting.res
+         Debug\ChatListModel.obj
+         Debug\ChatListModelDelegate.obj
+         Debug\ccommondialog.obj
+         Debug\ccommonwidget.obj
+         Debug\OSInfo.obj
+         Debug\ConvertDocThread.obj
+         Debug\OcImageLoader.obj
+         Debug\qupfile.obj
+         Debug\SeanPptProgressWdg.obj
+         Debug\SeanTestWdg.obj
+         Debug\ToolBar.obj
+         Debug\WdgDocShare.obj
+         Debug\eventcenter.obj
+         Debug\moc_AboutWidget.obj
+         Debug\moc_ButtonDelegate.obj
+         Debug\moc_ccommondialog.obj
+         Debug\moc_ccommonwidget.obj
+         Debug\moc_ChatListModel.obj
+         Debug\moc_ChatListModelDelegate.obj
+         Debug\moc_CListItemDelegate.obj
+         Debug\moc_CListModel.obj
+         Debug\moc_ConvertDocThread.obj
+         Debug\moc_DlgApplyAdmin.obj
+         Debug\moc_DlgAVSetting.obj
+         Debug\moc_eventcenter.obj
+         Debug\moc_LabelNetInfo.obj
+         Debug\moc_LeftWdg.obj
+         Debug\moc_MeetingDetailDelegate.obj
+         Debug\moc_Meetinglistmodel.obj
+         Debug\moc_Meetinglistwdg.obj
+         Debug\moc_MeetingLoadingWidget.obj
+         Debug\moc_MeetingRoomWordWdg.obj
+         Debug\moc_MicTestWdg.obj
+         Debug\moc_ModifyPassWord.obj
+         Debug\moc_OcImageLoader.obj
+         Debug\moc_qupfile.obj
+         Debug\moc_RoomSelectWdg.obj
+         Debug\moc_RoomWdg.obj
+         Debug\moc_SeanAnimation.obj
+         Debug\moc_SeanButton.obj
+         Debug\moc_SeanGifWdg.obj
+         Debug\moc_SeanPptProgressWdg.obj
+         Debug\moc_SeanProgressBar.obj
+         Debug\moc_SeanTableViewDelegate.obj
+         Debug\moc_SeanTestWdg.obj
+         Debug\moc_SeanThread.obj
+         Debug\moc_ServerAddressSet.obj
+         Debug\moc_SpekerTestWdg.obj
+         Debug\moc_ToolBar.obj
+         Debug\moc_UserLoginWdg.obj
+         Debug\moc_VideoMgr.obj
+         Debug\moc_videomonitormain.obj
+         Debug\moc_VideoWin.obj
+         Debug\moc_VoiceTestWdg.obj
+         Debug\moc_WdgDocShare.obj
+         Debug\moc_WdgNetInfo.obj
+         Debug\qrc_Default.obj
+         Debug\MeetingLoadingWidget.obj
+         Debug\RoomSelectWdg.obj
+         Debug\ServerAddressSet.obj
+         Debug\UserLoginWdg.obj
+         Debug\main.obj
+         Debug\ButtonDelegate.obj
+         Debug\MeetingDetailDelegate.obj
+         Debug\Meetinglistmodel.obj
+         Debug\Meetinglistwdg.obj
+         Debug\MeetingRoomWordWdg.obj
+         Debug\SeanTableViewDelegate.obj
+         Debug\DlgApplyAdmin.obj
+         Debug\LabelNetInfo.obj
+         Debug\LeftWdg.obj
+         Debug\RoomWdg.obj
+         Debug\WdgNetInfo.obj
+         Debug\SeanThread.obj
+         Debug\AboutWidget.obj
+         Debug\AppSetting.obj
+         Debug\DlgAVSetting.obj
+         Debug\ModifyPassWord.obj
+         Debug\SeanAnimation.obj
+         Debug\SeanButton.obj
+         Debug\SeanGifWdg.obj
+         Debug\CListItemDelegate.obj
+         Debug\CListModel.obj
+         Debug\videomonitormain.obj
+         Debug\VideoWin.obj
+         Debug\VideoMgr.obj
+         Debug\VideoMonitorMgr.obj
+         Debug\MicTestWdg.obj
+         Debug\SeanProgressBar.obj
+         Debug\SpekerTestWdg.obj
+         Debug\VoiceTestWdg.obj
+         LINK : 没有找到 D:\FFF\openmeeting3\openmeeting2\Win32\Debug\\OpenMeeting2.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>QAxContainerd.lib(qaxbase.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“QAxContainerd.lib(qaxbase.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>QAxContainerd.lib(qaxobject.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“QAxContainerd.lib(qaxobject.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>QAxContainerd.lib(qaxtypes.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“QAxContainerd.lib(qaxtypes.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Win32\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Meeting.vcxproj -> D:\FFF\openmeeting3\openmeeting2\Win32\Debug\OpenMeeting2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\\OpenMeeting2.exe;#1" /manifest Debug\OpenMeeting2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OpenMeeting2.unsuccessfulbuild”。
+         正在对“Debug\OpenMeeting2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\FFF\openmeeting3\openmeeting2\Meeting.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.13

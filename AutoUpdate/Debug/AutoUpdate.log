@@ -1,0 +1,509 @@
+﻿生成启动时间为 2018/6/8 9:45:18。
+     1>项目“D:\FFF\openmeeting3\openmeeting2\AutoUpdate\AutoUpdate.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\AutoUpdate.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ComputeCustomBuildOutput:
+         正在创建目录“D:\FFF\openmeeting3\openmeeting2\AutoUpdate\GeneratedFiles\Debug\”。
+       CustomBuild:
+         Moc'ing autoupdate.h...
+         Uic'ing autoupdate.ui...
+         Moc'ing downloadthread.h...
+         Rcc'ing autoupdate.qrc...
+     1>RCC : warning : No resources in 'D:\FFF\openmeeting3\openmeeting2\AutoUpdate\autoupdate.qrc'.
+         
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include\QtNetwork /Zi /nologo /W4 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt autoupdate.cpp downloadthread.cpp GeneratedFiles\Debug\moc_autoupdate.cpp GeneratedFiles\Debug\moc_downloadthread.cpp main.cpp
+         autoupdate.cpp
+         downloadthread.cpp
+         moc_autoupdate.cpp
+         moc_downloadthread.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(71): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(80): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(71): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(80): warning C4127: 条件表达式是常量
+         main.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(71): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(80): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(71): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(80): warning C4127: 条件表达式是常量
+     1>downloadthread.cpp(46): warning C4100: “networkError”: 未引用的形参
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(518): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(508): 编译类 模板 成员函数“void QList<T>::append(const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qstringlist.h(67): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(372): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(371): 编译类 模板 成员函数“void QList<T>::node_construct(QList<T>::Node *,const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(373): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(388): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(387): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(389): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(480): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(351): 编译类 模板 成员函数“const QPainterPath::Element &QVector<T>::at(int) const”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/painting/qpainterpath.h(254): 参见对正在编译的类 模板 实例化“QVector<T>”的引用
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(493): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(495): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(499): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(500): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(510): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(525): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(438): 编译类 模板 成员函数“QList<T> &QList<T>::operator =(const QList<T> &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(406): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(404): 编译类 模板 成员函数“QVectorData *QVector<T>::malloc(int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(460): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(459): 编译类 模板 成员函数“void QVector<T>::free(QVectorTypedData<T> *)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>autoupdate.cpp(37): warning C4189: “pProcess”: 局部变量已初始化但不引用
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(518): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(508): 编译类 模板 成员函数“void QList<T>::append(const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qstringlist.h(67): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(518): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(508): 编译类 模板 成员函数“void QList<T>::append(const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qstringlist.h(67): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(372): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(371): 编译类 模板 成员函数“void QList<T>::node_construct(QList<T>::Node *,const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(373): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(388): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(387): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(389): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(480): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(351): 编译类 模板 成员函数“const QPainterPath::Element &QVector<T>::at(int) const”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/painting/qpainterpath.h(254): 参见对正在编译的类 模板 实例化“QVector<T>”的引用
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(493): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(495): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(499): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(500): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(510): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(525): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(438): 编译类 模板 成员函数“QList<T> &QList<T>::operator =(const QList<T> &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(406): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(404): 编译类 模板 成员函数“QVectorData *QVector<T>::malloc(int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(460): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(459): 编译类 模板 成员函数“void QVector<T>::free(QVectorTypedData<T> *)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(724): 编译类 模板 成员函数“void QList<T>::detach_helper(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/styles/qstyleoption.h(753): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(707): 编译类 模板 成员函数“void QList<T>::detach_helper(int)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(372): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(371): 编译类 模板 成员函数“void QList<T>::node_construct(QList<T>::Node *,const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(373): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(388): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(387): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(389): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(480): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(351): 编译类 模板 成员函数“const QPainterPath::Element &QVector<T>::at(int) const”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/painting/qpainterpath.h(254): 参见对正在编译的类 模板 实例化“QVector<T>”的引用
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(493): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(495): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(499): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(500): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(510): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(525): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(438): 编译类 模板 成员函数“QList<T> &QList<T>::operator =(const QList<T> &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(406): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(404): 编译类 模板 成员函数“QVectorData *QVector<T>::malloc(int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(460): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(459): 编译类 模板 成员函数“void QVector<T>::free(QVectorTypedData<T> *)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(724): 编译类 模板 成员函数“void QList<T>::detach_helper(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/styles/qstyleoption.h(753): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(707): 编译类 模板 成员函数“void QList<T>::detach_helper(int)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(71): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qhash.h(80): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(518): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(508): 编译类 模板 成员函数“void QList<T>::append(const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qstringlist.h(67): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(372): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(371): 编译类 模板 成员函数“void QList<T>::node_construct(QList<T>::Node *,const T &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(373): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(388): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(387): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(389): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(480): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(351): 编译类 模板 成员函数“const QPainterPath::Element &QVector<T>::at(int) const”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/painting/qpainterpath.h(254): 参见对正在编译的类 模板 实例化“QVector<T>”的引用
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(493): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(495): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(499): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(500): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(510): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(525): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QString
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(438): 编译类 模板 成员函数“QList<T> &QList<T>::operator =(const QList<T> &)”时
+                 with
+                 [
+                     T=QString
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(406): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(404): 编译类 模板 成员函数“QVectorData *QVector<T>::malloc(int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(473): 编译类 模板 成员函数“void QVector<T>::realloc(int,int)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(460): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qvector.h(459): 编译类 模板 成员函数“void QVector<T>::free(QVectorTypedData<T> *)”时
+                 with
+                 [
+                     T=QPainterPath::Element
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(430): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(429): 编译类 模板 成员函数“void QList<T>::node_destruct(QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(724): 编译类 模板 成员函数“void QList<T>::detach_helper(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(730): 编译类 模板 成员函数“QList<T>::~QList(void)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtgui\../../src/gui/styles/qstyleoption.h(753): 参见对正在编译的类 模板 实例化“QList<T>”的引用
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(432): warning C4127: 条件表达式是常量
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(396): warning C4127: 条件表达式是常量
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(394): 编译类 模板 成员函数“void QList<T>::node_copy(QList<T>::Node *,QList<T>::Node *,QList<T>::Node *)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+                 c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(707): 编译类 模板 成员函数“void QList<T>::detach_helper(int)”时
+                 with
+                 [
+                     T=QStyleOptionQ3ListViewItem
+                 ]
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(409): warning C4127: 条件表达式是常量
+         D:\vs2010\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include\QtNetwork /Zi /nologo /W4 /WX- /MP /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_autoupdate.cpp
+         qrc_autoupdate.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\AutoUpdate.res" AutoUpdate.rc 
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\\AutoUpdate.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtNetworkd4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AutoUpdate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\AutoUpdate.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\AutoUpdate.lib" /MACHINE:X86 Debug\AutoUpdate.res
+         Debug\autoupdate.obj
+         Debug\downloadthread.obj
+         Debug\moc_autoupdate.obj
+         Debug\moc_downloadthread.obj
+         Debug\qrc_autoupdate.obj
+         Debug\main.obj
+         AutoUpdate.vcxproj -> D:\FFF\openmeeting3\openmeeting2\Win32\Debug\AutoUpdate.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\FFF\openmeeting3\openmeeting2\Win32\Debug\\AutoUpdate.exe;#1" /manifest Debug\AutoUpdate.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\AutoUpdate.unsuccessfulbuild”。
+         正在对“Debug\AutoUpdate.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\FFF\openmeeting3\openmeeting2\AutoUpdate\AutoUpdate.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.02

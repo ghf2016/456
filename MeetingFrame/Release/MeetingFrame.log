@@ -1,0 +1,2083 @@
+﻿生成启动时间为 2018/6/8 10:16:34。
+     1>项目“D:\FFF\openmeeting3\openmeeting2\MeetingFrame\MeetingFrame.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\FFF\openmeeting3\openmeeting2\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\MeetingFrame.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /I..\third_party /I..\video_sdk\inc\ /Zi /nologo /W4 /WX- /MP /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MEETINGFRAME_EXPORTS /D POCO_STATIC /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp MeetingConnImpl.cpp MeetingFrameImpl.cpp stdafx.cpp
+         dllmain.cpp
+         MeetingConnImpl.cpp
+         MeetingFrameImpl.cpp
+         stdafx.cpp
+     1>D:\FFF\openmeeting3\openmeeting2\video_sdk\inc\ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\video_sdk\inc\ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\video_sdk\inc\ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\video_sdk\inc\ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
+     1>dllmain.cpp(7): warning C4100: “lpReserved”: 未引用的形参
+     1>dllmain.cpp(4): warning C4100: “hModule”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\meetingframe\MeetingFrameImpl.h(117): warning C4100: “ulUserID”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/FPEnvironment_WIN32.h(110): warning C4244: “参数”: 从“long double”转换到“double”，可能丢失数据
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/FPEnvironment_WIN32.h(128): warning C4244: “参数”: 从“long double”转换到“double”，可能丢失数据
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/FPEnvironment_WIN32.h(110): warning C4244: “参数”: 从“long double”转换到“double”，可能丢失数据
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/FPEnvironment_WIN32.h(128): warning C4244: “参数”: 从“long double”转换到“double”，可能丢失数据
+     1>MeetingFrameImpl.cpp(72): warning C4100: “strToken”: 未引用的形参
+     1>MeetingFrameImpl.cpp(72): warning C4100: “strRoomPwd”: 未引用的形参
+     1>d:\fff\openmeeting3\openmeeting2\meetingframe\MeetingFrameImpl.h(117): warning C4100: “ulUserID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(208): warning C4100: “ulChannelID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(220): warning C4100: “ulChannelID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(234): warning C4100: “ulChannelID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(307): warning C4389: “==”: 有符号/无符号不匹配
+     1>MeetingFrameImpl.cpp(467): warning C4100: “ulChannelID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(536): warning C4100: “ulToUserID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(594): warning C4101: “myGuid”: 未引用的局部变量
+     1>MeetingFrameImpl.cpp(614): warning C4100: “ulChannelID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(639): warning C4245: “=”: 从“int”转换到“uint32_t”，有符号/无符号不匹配
+     1>MeetingFrameImpl.cpp(630): warning C4100: “ulToUserID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(791): warning C4100: “layout_mgr”: 未引用的形参
+     1>MeetingFrameImpl.cpp(907): warning C4244: “=”: 从“uint32_t”转换到“unsigned char”，可能丢失数据
+     1>MeetingFrameImpl.cpp(913): warning C4244: “=”: 从“uint32_t”转换到“unsigned char”，可能丢失数据
+     1>MeetingFrameImpl.cpp(960): warning C4244: “=”: 从“uint32_t”转换到“unsigned char”，可能丢失数据
+     1>MeetingFrameImpl.cpp(991): warning C4244: “=”: 从“uint32_t”转换到“unsigned char”，可能丢失数据
+     1>MeetingFrameImpl.cpp(981): warning C4100: “strUserAccount”: 未引用的形参
+     1>MeetingFrameImpl.cpp(1016): warning C4189: “ulMixedSSRC”: 局部变量已初始化但不引用
+     1>MeetingFrameImpl.cpp(1114): warning C4100: “ulChannelID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(1122): warning C4100: “ulChannelID”: 未引用的形参
+     1>MeetingFrameImpl.cpp(1221): warning C4389: “==”: 有符号/无符号不匹配
+     1>MeetingConnImpl.cpp(269): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+     1>MeetingFrameImpl.cpp(1237): warning C4389: “==”: 有符号/无符号不匹配
+     1>MeetingConnImpl.cpp(448): warning C4189: “c2”: 局部变量已初始化但不引用
+     1>MeetingConnImpl.cpp(447): warning C4189: “c”: 局部变量已初始化但不引用
+     1>MeetingConnImpl.cpp(734): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+     1>MeetingConnImpl.cpp(738): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+     1>MeetingConnImpl.cpp(809): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+     1>MeetingConnImpl.cpp(813): warning C4244: “=”: 从“int”转换到“uint16_t”，可能丢失数据
+     1>MeetingConnImpl.cpp(1091): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MeetingConnImpl.cpp(1111): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MeetingConnImpl.cpp(1119): warning C4800: “uint32_t”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>MeetingConnImpl.cpp(1001): warning C4189: “toSessionID”: 局部变量已初始化但不引用
+     1>MeetingConnImpl.cpp(1332): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+     1>MeetingConnImpl.cpp(1340): warning C4244: “参数”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+     1>MeetingConnImpl.cpp(1325): warning C4189: “date”: 局部变量已初始化但不引用
+     1>MeetingConnImpl.cpp(1358): warning C4100: “nLen”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(156): warning C4100: “length”: 未引用的形参
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(157): 编译类 模板 成员函数“int Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>::readFromDevice(char *,std::streamsize)”时
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Net/SocketStream.h(59): 参见对正在编译的类 模板 实例化“Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>”的引用
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(156): warning C4100: “buffer”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(161): warning C4100: “length”: 未引用的形参
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(162): 编译类 模板 成员函数“int Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>::writeToDevice(const char *,std::streamsize)”时
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(161): warning C4100: “buffer”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(156): warning C4100: “length”: 未引用的形参
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(157): 编译类 模板 成员函数“int Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>::readFromDevice(char *,std::streamsize)”时
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Net/SocketStream.h(59): 参见对正在编译的类 模板 实例化“Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>”的引用
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(156): warning C4100: “buffer”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(161): warning C4100: “length”: 未引用的形参
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(162): 编译类 模板 成员函数“int Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>::writeToDevice(const char *,std::streamsize)”时
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(161): warning C4100: “buffer”: 未引用的形参
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferAllocator.h(64): warning C4100: “size”: 未引用的形参
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferAllocator.h(65): 编译类 模板 成员函数“void Poco::BufferAllocator<ch>::deallocate(char *,std::streamsize)”时
+                 with
+                 [
+                     ch=char
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(90): 参见对正在编译的类 模板 实例化“Poco::BufferAllocator<ch>”的引用
+                 with
+                 [
+                     ch=char
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(89): 编译类 模板 成员函数“Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>::~BasicBufferedBidirectionalStreamBuf(void)”时
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferAllocator.h(64): warning C4100: “size”: 未引用的形参
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferAllocator.h(65): 编译类 模板 成员函数“void Poco::BufferAllocator<ch>::deallocate(char *,std::streamsize)”时
+                 with
+                 [
+                     ch=char
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(90): 参见对正在编译的类 模板 实例化“Poco::BufferAllocator<ch>”的引用
+                 with
+                 [
+                     ch=char
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/BufferedBidirectionalStreamBuf.h(89): 编译类 模板 成员函数“Poco::BasicBufferedBidirectionalStreamBuf<ch,tr>::~BasicBufferedBidirectionalStreamBuf(void)”时
+                 with
+                 [
+                     ch=char,
+                     tr=std::char_traits<char>
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/String.h(233): warning C4244: “初始化”: 从“int”转换到“char”，可能丢失数据
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/String.h(715): 参见对正在编译的函数 模板 实例化“int Poco::icompare<std::string>(const S &,const S &)”的引用
+                 with
+                 [
+                     S=std::string
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/String.h(234): warning C4244: “初始化”: 从“int”转换到“char”，可能丢失数据
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(819): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int16,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(952): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(957): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1085): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1090): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1095): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/String.h(233): warning C4244: “初始化”: 从“int”转换到“char”，可能丢失数据
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/String.h(715): 参见对正在编译的函数 模板 实例化“int Poco::icompare<std::string>(const S &,const S &)”的引用
+                 with
+                 [
+                     S=std::string
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/String.h(234): warning C4244: “初始化”: 从“int”转换到“char”，可能丢失数据
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(819): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int16,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(952): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(957): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1917): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1922): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1927): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1932): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1085): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1090): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1095): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2051): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2056): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2061): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2066): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2498): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2503): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1917): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1922): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1927): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1932): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2051): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2056): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2061): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2066): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2498): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2503): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(708): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(713): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(718): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(723): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(819): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int16,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(839): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(844): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(849): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(708): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(854): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(713): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(952): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(718): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(723): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int8,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int8,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(957): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(819): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int16,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(972): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(839): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(977): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(844): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(982): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(849): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(987): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(854): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int16,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int16,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1085): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(952): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1090): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(957): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int32,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1095): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(972): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(977): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1105): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1110): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(982): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1115): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(987): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int32,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int32,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1120): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1085): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1233): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt8,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1238): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt8,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1090): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1366): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt16,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1371): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt16,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1095): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<Poco::Int64,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1376): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt16,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1386): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt16,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1105): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1499): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1110): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1504): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1115): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1509): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1120): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<Poco::Int64,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::Int64,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1514): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1233): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt8,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1519): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt32,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1238): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt8,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt8,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1524): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt32,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1632): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1366): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt16,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1637): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1642): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1371): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt16,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1647): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1376): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt16,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1652): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt64,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1386): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt16,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt16,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1657): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt64,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1499): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1662): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt64,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1504): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1917): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1509): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1514): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt32,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1922): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1519): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt32,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1524): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt32,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt32,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1927): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1632): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1637): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1932): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1642): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1647): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<Poco::UInt64,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1652): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt64,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2051): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1657): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt64,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1662): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<Poco::UInt64,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=Poco::UInt64,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2056): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1917): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2061): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1922): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2066): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1927): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2498): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(1932): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<float,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=float,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2503): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2051): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2056): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2518): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2061): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2523): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2528): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2066): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2533): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2631): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2498): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2636): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2503): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<long,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2641): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2518): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2523): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2646): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2528): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(360): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2533): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertSignedToUnsigned<long,Poco::UInt64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=long,
+                     T=Poco::UInt64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2651): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<unsigned long,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2631): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2656): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<unsigned long,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2636): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2661): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<unsigned long,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2641): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(395): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int64
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2646): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertUnsignedToSigned<unsigned long,Poco::Int64>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::Int64
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt8
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2651): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<unsigned long,Poco::UInt8>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt8
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt16
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2656): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<unsigned long,Poco::UInt16>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt16
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(342): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt32
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2661): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmallerUnsigned<unsigned long,Poco::UInt32>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=unsigned long,
+                     T=Poco::UInt32
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2385): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,float>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=float
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2383): 编译类 模板 成员函数“void Poco::Dynamic::VarHolderImpl<T>::convert(float &) const”时
+                 with
+                 [
+                     T=std::string
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/Var.h(237): 参见对正在编译的类 模板 实例化“Poco::Dynamic::VarHolderImpl<T>”的引用
+                 with
+                 [
+                     T=std::string
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/Var.h(535): 参见对正在编译的函数 模板 实例化“const T &Poco::Dynamic::Var::extract<std::string>(void) const”的引用
+                 with
+                 [
+                     T=std::string
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(315): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2385): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,float>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=float
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2383): 编译类 模板 成员函数“void Poco::Dynamic::VarHolderImpl<T>::convert(float &) const”时
+                 with
+                 [
+                     T=std::string
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/Var.h(237): 参见对正在编译的类 模板 实例化“Poco::Dynamic::VarHolderImpl<T>”的引用
+                 with
+                 [
+                     T=std::string
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/Var.h(535): 参见对正在编译的函数 模板 实例化“const T &Poco::Dynamic::Var::extract<std::string>(void) const”的引用
+                 with
+                 [
+                     T=std::string
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=float
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2385): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,float>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=float
+                 ]
+     1>D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(404): warning C4127: 条件表达式是常量
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(317): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::checkUpperLimit<F,T>(const F &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=float
+                 ]
+                 D:\FFF\openmeeting3\openmeeting2\third_party\Poco/Dynamic/VarHolder.h(2385): 参见对正在编译的函数 模板 实例化“void Poco::Dynamic::VarHolder::convertToSmaller<double,float>(const F &,T &) const”的引用
+                 with
+                 [
+                     F=double,
+                     T=float
+                 ]
+     1>MeetingFrameImpl.cpp(8): warning C4505: “GetFileNameFromExePath”: 未引用的本地函数已移除
+     1>d:\fff\openmeeting3\openmeeting2\meetingframe\meetingframeimpl.cpp(612): warning C4715: “MeetingFrameImpl::StartPublishVideo2”: 不是所有的控件路径都返回值
+     1>d:\fff\openmeeting3\openmeeting2\third_party\poco\mutex_win32.h(80): warning C4702: 无法访问的代码
+     1>d:\fff\openmeeting3\openmeeting2\third_party\poco\mutex_win32.h(80): warning C4702: 无法访问的代码
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\FFF\openmeeting3\openmeeting2\Release\MeetingFrame.dll) 与 Linker 的 OutputFile 属性值(D:\FFF\openmeeting3\openmeeting2\Win32\Release\MeetingFrame.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Release\MeetingFrame.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\third_party\poco /LIBPATH:..\video_sdk\lib\Release\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"MeetingFrame.def" /MANIFEST /ManifestFile:"Release\MeetingFrame.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FFF\openmeeting3\openmeeting2\Release\MeetingFrame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\video_sdk\lib\Release\MeetingFrame.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\MeetingConnImpl.obj
+         Release\MeetingFrameImpl.obj
+         Release\stdafx.obj
+            正在创建库 ..\video_sdk\lib\Release\MeetingFrame.lib 和对象 ..\video_sdk\lib\Release\MeetingFrame.exp
+         LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+         MeetingFrame.vcxproj -> D:\FFF\openmeeting3\openmeeting2\Release\MeetingFrame.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Win32\Release\MeetingFrame.dll;#2" /manifest Release\MeetingFrame.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\MeetingFrame.unsuccessfulbuild”。
+         正在对“Release\MeetingFrame.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\FFF\openmeeting3\openmeeting2\MeetingFrame\MeetingFrame.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.82
