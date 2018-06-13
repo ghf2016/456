@@ -1047,7 +1047,7 @@ void MeetingConnImpl::OnTransparentCmd(Object::Ptr object)
 		uint64_t ulFromSessionID = varFromSessionID;
 		Var varChannelID = subObj->get("channelID");
 		uint32_t ulChannelID = varChannelID;
-		MeetingFrameImpl::GetInstance()->OnRecvRemoteVideo(ulFromSessionID,ulChannelID,ulSSRC);
+//		MeetingFrameImpl::GetInstance()->OnRecvRemoteVideo(ulFromSessionID,ulChannelID,ulSSRC);
 	}
 	else if(strCommand == "requireKeyFrame")
 	{
@@ -1176,10 +1176,10 @@ void MeetingConnImpl::OnTransparentCmd(Object::Ptr object)
 		}
 	}else if(strCommand == "startVideoMonitor"){
 
-		MeetingFrameImpl::GetInstance()->OnStartVideoMonitor();
+	//	MeetingFrameImpl::GetInstance()->OnStartVideoMonitor();
 
 	}else if(strCommand == "stopVideoMonitor"){
-		MeetingFrameImpl::GetInstance()->OnStopVideoMonitor();
+	//	MeetingFrameImpl::GetInstance()->OnStopVideoMonitor();
 
 	}else if(strCommand == "pauseVideo"){
 		MeetingFrameImpl::GetInstance()->OnPauseVideo();

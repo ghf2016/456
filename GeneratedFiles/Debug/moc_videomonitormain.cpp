@@ -22,7 +22,7 @@ static const uint qt_meta_data_VideoMonitorMain[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       7,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -32,18 +32,15 @@ static const uint qt_meta_data_VideoMonitorMain[] = {
  // slots: signature, parameters, type, tag, flags
       24,   18,   17,   17, 0x0a,
       47,   17,   17,   17, 0x0a,
-      65,   17,   17,   17, 0x0a,
-      82,   17,   17,   17, 0x0a,
-      99,   17,   17,   17, 0x0a,
-     116,   17,   17,   17, 0x0a,
-     132,   17,   17,   17, 0x0a,
+      64,   17,   17,   17, 0x0a,
+      81,   17,   17,   17, 0x0a,
+      97,   17,   17,   17, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_VideoMonitorMain[] = {
     "VideoMonitorMain\0\0index\0OnVideoModeChange(int)\0"
-    "OnBtnStartClick()\0OnBtnStopClick()\0"
     "OnBtnNextClick()\0OnBtnPrevClick()\0"
     "OnChkAutoPage()\0OnAutoPageTimer()\0"
 };
@@ -55,12 +52,10 @@ void VideoMonitorMain::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
         VideoMonitorMain *_t = static_cast<VideoMonitorMain *>(_o);
         switch (_id) {
         case 0: _t->OnVideoModeChange((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 1: _t->OnBtnStartClick(); break;
-        case 2: _t->OnBtnStopClick(); break;
-        case 3: _t->OnBtnNextClick(); break;
-        case 4: _t->OnBtnPrevClick(); break;
-        case 5: _t->OnChkAutoPage(); break;
-        case 6: _t->OnAutoPageTimer(); break;
+        case 1: _t->OnBtnNextClick(); break;
+        case 2: _t->OnBtnPrevClick(); break;
+        case 3: _t->OnChkAutoPage(); break;
+        case 4: _t->OnAutoPageTimer(); break;
         default: ;
         }
     }
@@ -98,9 +93,9 @@ int VideoMonitorMain::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 7)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 7;
+        _id -= 5;
     }
     return _id;
 }

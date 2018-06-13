@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>285</width>
+    <width>500</width>
     <height>555</height>
    </rect>
   </property>
@@ -18,13 +18,13 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>285</width>
-    <height>555</height>
+    <width>400</width>
+    <height>400</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>500</width>
+    <width>16777215</width>
     <height>16777215</height>
    </size>
   </property>
@@ -225,6 +225,12 @@ color: rgb(102,102,102);</string>
        </item>
        <item>
         <widget class="QListView" name="lvUser">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(255, 255, 255);
 border:0px solid rgb(211, 224, 233);
@@ -280,6 +286,12 @@ min-height:40px;</string>
           </property>
           <item>
            <widget class="QTextEdit" name="outPutTextEdit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="styleSheet">
              <string notr="true">background-color: rgb(255, 255, 255);</string>
             </property>
@@ -385,9 +397,15 @@ min-height:40px;</string>
           </item>
           <item>
            <widget class="QTextEdit" name="inPutTextEdit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="minimumSize">
              <size>
-              <width>275</width>
+              <width>250</width>
               <height>71</height>
              </size>
             </property>

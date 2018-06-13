@@ -32,8 +32,8 @@ public:
 	public slots:
 		//视频显示模式改变了
 		void OnVideoModeChange(int index);
-		void OnBtnStartClick();
-		void OnBtnStopClick();
+//		void OnBtnStartClick();
+//		void OnBtnStopClick();
 		void OnBtnNextClick();
 		void OnBtnPrevClick();
 		void OnChkAutoPage();

@@ -1,14 +1,10 @@
-﻿生成启动时间为 2018/6/8 9:50:52。
+﻿生成启动时间为 2018/6/13 15:36:58。
      1>项目“D:\FFF\openmeeting3\openmeeting2\MeetingFrame\MeetingFrame.vcxproj”在节点 2 上(build 个目标)。
-     1>PrepareForBuild:
-         正在创建目录“D:\FFF\openmeeting3\openmeeting2\Debug\”。
-       InitializeBuildStatus:
+     1>InitializeBuildStatus:
          正在创建“Debug\MeetingFrame.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\vs2010\VC\bin\CL.exe /c /I..\third_party /I..\video_sdk\inc\ /Zi /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MEETINGFRAME_EXPORTS /D POCO_STATIC /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp MeetingConnImpl.cpp MeetingFrameImpl.cpp stdafx.cpp
+         D:\vs2010\VC\bin\CL.exe /c /I..\third_party /I..\video_sdk\inc\ /Zi /nologo /W4 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MEETINGFRAME_EXPORTS /D POCO_STATIC /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MeetingConnImpl.cpp MeetingFrameImpl.cpp
      1>cl : 命令行 warning D9030: “/Gm”与多处理不兼容；忽略 /MP 开关
-         stdafx.cpp
-     1>D:\FFF\openmeeting3\openmeeting2\video_sdk\inc\ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
          MeetingFrameImpl.cpp
      1>D:\FFF\openmeeting3\openmeeting2\video_sdk\inc\ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
      1>d:\fff\openmeeting3\openmeeting2\meetingframe\MeetingFrameImpl.h(117): warning C4100: “ulUserID”: 未引用的形参
@@ -2056,16 +2052,12 @@
                      F=double,
                      T=float
                  ]
-         dllmain.cpp
-     1>D:\FFF\openmeeting3\openmeeting2\video_sdk\inc\ZYMediaFrame.h(111): warning C4100: “ulUserId”: 未引用的形参
-     1>dllmain.cpp(7): warning C4100: “lpReserved”: 未引用的形参
-     1>dllmain.cpp(4): warning C4100: “hModule”: 未引用的形参
          正在生成代码...
      1>d:\fff\openmeeting3\openmeeting2\third_party\poco\mutex_win32.h(80): warning C4702: 无法访问的代码
      1>d:\fff\openmeeting3\openmeeting2\meetingframe\meetingframeimpl.cpp(612): warning C4715: “MeetingFrameImpl::StartPublishVideo2”: 不是所有的控件路径都返回值
      1>d:\fff\openmeeting3\openmeeting2\third_party\poco\mutex_win32.h(80): warning C4702: 无法访问的代码
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MeetingFrame.dll.embed.manifest.res" Debug\MeetingFrame_manifest.rc 
+         所有输出均为最新。
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\FFF\openmeeting3\openmeeting2\Debug\MeetingFrame.dll) 与 Linker 的 OutputFile 属性值(D:\FFF\openmeeting3\openmeeting2\Win32\Debug\MeetingFrame.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
        Link:
          D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Debug\MeetingFrame.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\third_party\poco /LIBPATH:..\video_sdk\lib\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"MeetingFrame.def" /MANIFEST /ManifestFile:"Debug\MeetingFrame.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FFF\openmeeting3\openmeeting2\Debug\MeetingFrame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\video_sdk\lib\Debug\MeetingFrame.lib" /MACHINE:X86 /DLL Debug\MeetingFrame.dll.embed.manifest.res
@@ -2073,6 +2065,7 @@
          Debug\MeetingConnImpl.obj
          Debug\MeetingFrameImpl.obj
          Debug\stdafx.obj
+         LINK : 缺少程序数据库 D:\FFF\openmeeting3\openmeeting2\Debug\MeetingFrame.pdb；正在执行完全链接
             正在创建库 ..\video_sdk\lib\Debug\MeetingFrame.lib 和对象 ..\video_sdk\lib\Debug\MeetingFrame.exp
      1>PocoFoundationmdd.lib(Ascii.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Ascii.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
      1>PocoFoundationmdd.lib(AtomicCounter.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(AtomicCounter.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
@@ -2140,78 +2133,9 @@
      1>PocoJSONmdd.lib(Stringifier.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(Stringifier.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MeetingFrame.dll.embed.manifest" /manifest Debug\MeetingFrame.dll.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MeetingFrame.dll.embed.manifest.res" Debug\MeetingFrame_manifest.rc 
+         所有输出均为最新。
        LinkEmbedManifest:
-         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Debug\MeetingFrame.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\third_party\poco /LIBPATH:..\video_sdk\lib\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"MeetingFrame.def" /MANIFEST /ManifestFile:"Debug\MeetingFrame.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\FFF\openmeeting3\openmeeting2\Debug\MeetingFrame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\video_sdk\lib\Debug\MeetingFrame.lib" /MACHINE:X86 /DLL Debug\MeetingFrame.dll.embed.manifest.res
-         Debug\dllmain.obj
-         Debug\MeetingConnImpl.obj
-         Debug\MeetingFrameImpl.obj
-         Debug\stdafx.obj
-            正在创建库 ..\video_sdk\lib\Debug\MeetingFrame.lib 和对象 ..\video_sdk\lib\Debug\MeetingFrame.exp
-     1>PocoFoundationmdd.lib(Ascii.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Ascii.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(AtomicCounter.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(AtomicCounter.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Bugcheck.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Bugcheck.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Debugger.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Debugger.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Exception.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Exception.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Format.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Format.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Latin2Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Latin2Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(NumberFormatter.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(NumberFormatter.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(NumberParser.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(NumberParser.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(NumericString.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(NumericString.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(RefCountedObject.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(RefCountedObject.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(UTF32Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(UTF32Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Var.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Var.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(VarHolder.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(VarHolder.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Windows1250Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Windows1250Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Windows1251Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Windows1251Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(ErrorHandler.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(ErrorHandler.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Mutex.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Mutex.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Runnable.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Runnable.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(RWLock.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(RWLock.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Thread.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Thread.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(ThreadLocal.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(ThreadLocal.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(DigestEngine.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(DigestEngine.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(MD5Engine.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(MD5Engine.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(DateTime.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(DateTime.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(DateTimeFormat.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(DateTimeFormat.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(DateTimeFormatter.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(DateTimeFormatter.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(DateTimeParser.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(DateTimeParser.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(LocalDateTime.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(LocalDateTime.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Timespan.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Timespan.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Timestamp.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Timestamp.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Timezone.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Timezone.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(ASCIIEncoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(ASCIIEncoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Latin1Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Latin1Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Latin9Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Latin9Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(TextConverter.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(TextConverter.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(TextEncoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(TextEncoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(TextIterator.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(TextIterator.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(UnicodeConverter.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(UnicodeConverter.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(UTF16Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(UTF16Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(UTF8Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(UTF8Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(Windows1252Encoding.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(Windows1252Encoding.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoFoundationmdd.lib(URI.obj) : warning LNK4099: 未找到 PDB“pocofoundationmdd.pdb”(使用“PocoFoundationmdd.lib(URI.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocofoundationmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(DNS.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(DNS.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(HostEntry.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(HostEntry.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(IPAddress.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(IPAddress.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(IPAddressImpl.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(IPAddressImpl.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(Net.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(Net.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(NetException.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(NetException.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(SocketAddress.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(SocketAddress.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(Socket.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(Socket.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(SocketAddressImpl.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(SocketAddressImpl.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(SocketImpl.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(SocketImpl.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(StreamSocket.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(StreamSocket.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(StreamSocketImpl.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(StreamSocketImpl.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(NameValueCollection.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(NameValueCollection.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoNetmdd.lib(HTTPCookie.obj) : warning LNK4099: 未找到 PDB“poconetmdd.pdb”(使用“PocoNetmdd.lib(HTTPCookie.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\poconetmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoJSONmdd.lib(Array.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(Array.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoJSONmdd.lib(ParseHandler.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(ParseHandler.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoJSONmdd.lib(Handler.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(Handler.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoJSONmdd.lib(JSONException.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(JSONException.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoJSONmdd.lib(Object.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(Object.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoJSONmdd.lib(Parser.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(Parser.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
-     1>PocoJSONmdd.lib(Stringifier.obj) : warning LNK4099: 未找到 PDB“pocojsonmdd.pdb”(使用“PocoJSONmdd.lib(Stringifier.obj)”或在“D:\FFF\openmeeting3\openmeeting2\Debug\pocojsonmdd.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         所有输出均为最新。
          MeetingFrame.vcxproj -> D:\FFF\openmeeting3\openmeeting2\Debug\MeetingFrame.dll
        FinalizeBuildStatus:
          正在删除文件“Debug\MeetingFrame.unsuccessfulbuild”。
@@ -2220,4 +2144,4 @@
 
 生成成功。
 
-已用时间 00:00:08.20
+已用时间 00:00:08.78

@@ -57,25 +57,25 @@ EventCenter::EventCenter(QWidget *parent, Qt::WFlags flags)
 
 	connect(this,SIGNAL(EventUserOffline(unsigned long long)),this,SLOT(OnUserOffline(unsigned long long )));
 
-	connect(this,SIGNAL(EventRecvRemoteVideo(unsigned long long)),
-		this,SLOT(OnRecvRemoteVideo(unsigned long long)));
+//	connect(this,SIGNAL(EventRecvRemoteVideo(unsigned long long)),
+//		this,SLOT(OnRecvRemoteVideo(unsigned long long)));
 
 	connect(this,SIGNAL(EventSetAsBigVideo(unsigned long long)),
 		this,SLOT(OnSetAsBigVideo(unsigned long long)));
 	connect(this,SIGNAL(EventEnterRoom(unsigned int)),this,SLOT(OnEnterRoom(unsigned int)));
 	//打开文档
-	connect(this,SIGNAL(EventOpenDoc(QString,int,int)),RoomWdg::GetInstance(),
-		SLOT(OnOpenDoc(QString,int,int)));
+	/*connect(this,SIGNAL(EventOpenDoc(QString,int,int)),RoomWdg::GetInstance(),
+		SLOT(OnOpenDoc(QString,int,int)));*/
 	//关闭文档
-	connect(this,SIGNAL(EventCloseDoc()),RoomWdg::GetInstance(),SLOT(OnCloseDoc()));
+	//connect(this,SIGNAL(EventCloseDoc()),RoomWdg::GetInstance(),SLOT(OnCloseDoc()));
 
 	//共享光标
 	connect(this,SIGNAL(EventShowRemoteCursor(float,float)),RoomWdg::GetInstance(),
 		SLOT(OnShowRemoteCursor(float,float)));
 	//关闭光标
 	connect(this,SIGNAL(EventCloseRemoteCursor()),RoomWdg::GetInstance(),SLOT(OnCloseRemoteCursor()));
-	connect(this,SIGNAL(EventOnStartVideoMonitor()),this,SLOT(On_UI_StartVideoMonitor()));
-	connect(this,SIGNAL(EventOnStopVideoMonitor()),this,SLOT(On_UI_StopVideoMonitor()));
+	//connect(this,SIGNAL(EventOnStartVideoMonitor()),this,SLOT(On_UI_StartVideoMonitor()));
+//	connect(this,SIGNAL(EventOnStopVideoMonitor()),this,SLOT(On_UI_StopVideoMonitor()));
 	connect(this,SIGNAL(EventRecvVideoSSRC(unsigned long long ,unsigned int)),
 		this,SLOT(On_UI_RecvVideoSSRC(unsigned long long ,unsigned int)));
 	connect(this,SIGNAL(EventUpdateSoft(QString)),this,SLOT(On_UI_UpdateSoft(QString)));
@@ -182,7 +182,7 @@ void EventCenter::OnUserOffline(unsigned long long sessionID)
 {
 	if(g_pMeetingFrame)
 	{
-		VideoMgr::GetInstance()->GivebackVideo(sessionID);
+		//VideoMgr::GetInstance()->GivebackVideo(sessionID);
 		VideoMonitorMain::GetInstance()->RemoveVideo(sessionID);
 	}
 
@@ -320,7 +320,7 @@ void EventCenter::OnRoomModeChange(int mode)
 {
 	qDebug()<<"OnRoomModeChange"<<mode;
 	RoomWdg::GetInstance()->OnRoomModeChange(mode);
-	VideoMgr::GetInstance()->OnRoomModeChange(mode);
+	//VideoMgr::GetInstance()->OnRoomModeChange(mode);
 }
 
 void EventCenter::OnSpeakModeChange(int mode)
@@ -345,7 +345,7 @@ void EventCenter::On_MeetingEvent_CloseMyVideo(uint64_t sessionID,uint32_t chann
 {
 	if(g_pMeetingFrame)
 	{
-		VideoMgr::GetInstance()->GivebackVideo(sessionID);
+		//VideoMgr::GetInstance()->GivebackVideo(sessionID);
 		g_pMeetingFrame->StopRecvRemoteVideo(sessionID);
 		emit EventUpdateUI();
 	}
@@ -369,7 +369,7 @@ void EventCenter::On_UI_NetEvent(unsigned int code){
 		
 		if(g_pMeetingFrame)
 			g_pMeetingFrame->StopAllMediaStream();
-		VideoMgr::GetInstance()->FreeAll();
+		//VideoMgr::GetInstance()->FreeAll();
 		if(m_reConnectTimer)
 			m_reConnectTimer->start();
 		break;
@@ -384,21 +384,21 @@ void EventCenter::OnReConnectTimer(){
 		g_pMeetingFrame->ReConnect();
 }
 
-void EventCenter::OnRecvRemoteVideo(unsigned long long sessionID)
-{
-	if(g_pMeetingFrame!=NULL)
-	{
-		IVideoWin * videoWin = VideoMgr::GetInstance()->GetFreeVideo();
-		qDebug()<<"******************OnRecvRemoteVideo22222222*************";
-		if(videoWin == NULL)
-		{
-			MessageBox(NULL,L"视频位置已占满",NULL,NULL);
-			return;
-		}
-		videoWin->SetUserID(sessionID);
-		g_pMeetingFrame->StartRecvRemoteVideo(sessionID,0,videoWin);
-	}
-}
+//void EventCenter::OnRecvRemoteVideo(unsigned long long sessionID)
+//{
+//	if(g_pMeetingFrame!=NULL)
+//	{
+//		IVideoWin * videoWin = VideoMgr::GetInstance()->GetFreeVideo();
+//		qDebug()<<"******************OnRecvRemoteVideo22222222*************";
+//		if(videoWin == NULL)
+//		{
+//			MessageBox(NULL,L"视频位置已占满",NULL,NULL);
+//			return;
+//		}
+//		videoWin->SetUserID(sessionID);
+//		g_pMeetingFrame->StartRecvRemoteVideo(sessionID,0,videoWin);
+//	}
+//}
 
 void EventCenter::On_MeetingEvent_UpdateUI()
 {
@@ -409,7 +409,7 @@ void EventCenter::OnUpdateUI()
 {
 	LeftWdg::GetInstance()->UpdateUI();
 	RoomWdg::GetInstance()->UpdateUI();
-	VideoMgr::GetInstance()->UpdateUI();
+	//VideoMgr::GetInstance()->UpdateUI();
 }
 
 void EventCenter::StreamEvent_OnNetInfo(int delay,int uploadLost,int downloadLost)
@@ -437,18 +437,18 @@ void EventCenter::On_MeetingEvent_SetAsBigVideo(uint64_t sessionID)
 
 void EventCenter::OnSetAsBigVideo(unsigned long long sessionID)
 {
-	if(sessionID == g_pMeetingFrame->GetMySessionID())
-		VideoMgr::GetInstance()->SetBigVideo(0);
-	else
-		VideoMgr::GetInstance()->SetBigVideo(sessionID);
+	//if(sessionID == g_pMeetingFrame->GetMySessionID())
+	//	//VideoMgr::GetInstance()->SetBigVideo(0);
+	//else
+	//	//VideoMgr::GetInstance()->SetBigVideo(sessionID);
 }
 
-void EventCenter::On_MeetingEvent_StartVideoMonitor(){
-	emit EventOnStartVideoMonitor();
-}
-void EventCenter::On_MeetingEvent_StopVideoMonitor(){
-	emit EventOnStopVideoMonitor();
-}
+//void EventCenter::On_MeetingEvent_StartVideoMonitor(){
+//	//emit EventOnStartVideoMonitor();
+//}
+//void EventCenter::On_MeetingEvent_StopVideoMonitor(){
+//	emit EventOnStopVideoMonitor();
+//}
 
 //暂停发送视频
 void EventCenter::On_MeetingEvent_PauseVideo(){
@@ -463,12 +463,12 @@ void EventCenter::On_MeetingEvent_RecvUserVideoSSRC(uint32_t ssrc,uint64_t sessi
 	emit EventRecvVideoSSRC((unsigned long long)sessionId,(unsigned int)ssrc);
 }
 
-void EventCenter::On_UI_StartVideoMonitor(){
-	RoomWdg::GetInstance()->OnStartVideoMonitor();
-}
-void EventCenter::On_UI_StopVideoMonitor(){
-	RoomWdg::GetInstance()->OnStopVideoMonitor();
-}
+//void EventCenter::On_UI_StartVideoMonitor(){
+//	//RoomWdg::GetInstance()->OnStartVideoMonitor();
+//}
+//void EventCenter::On_UI_StopVideoMonitor(){
+//	RoomWdg::GetInstance()->OnStopVideoMonitor();
+//}
 void EventCenter::On_UI_RecvVideoSSRC(unsigned long long sessionID,unsigned int ssrc){
 	qDebug()<<"recv ssrc:"<<ssrc<<"session id:"<<sessionID;
 	if(g_pMeetingFrame->GetUserRole(0)==1)

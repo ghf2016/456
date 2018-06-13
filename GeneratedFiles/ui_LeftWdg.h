@@ -64,14 +64,14 @@ public:
     {
         if (LeftWdg->objectName().isEmpty())
             LeftWdg->setObjectName(QString::fromUtf8("LeftWdg"));
-        LeftWdg->resize(285, 555);
+        LeftWdg->resize(500, 555);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(LeftWdg->sizePolicy().hasHeightForWidth());
         LeftWdg->setSizePolicy(sizePolicy);
-        LeftWdg->setMinimumSize(QSize(285, 555));
-        LeftWdg->setMaximumSize(QSize(500, 16777215));
+        LeftWdg->setMinimumSize(QSize(400, 400));
+        LeftWdg->setMaximumSize(QSize(16777215, 16777215));
         verticalLayout = new QVBoxLayout(LeftWdg);
         verticalLayout->setSpacing(10);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
@@ -158,6 +158,8 @@ public:
 
         lvUser = new QListView(userListArea);
         lvUser->setObjectName(QString::fromUtf8("lvUser"));
+        sizePolicy.setHeightForWidth(lvUser->sizePolicy().hasHeightForWidth());
+        lvUser->setSizePolicy(sizePolicy);
         lvUser->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);\n"
 "border:0px solid rgb(211, 224, 233);\n"
 "min-height:40px;"));
@@ -188,6 +190,8 @@ public:
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         outPutTextEdit = new QTextEdit(verticalWidget);
         outPutTextEdit->setObjectName(QString::fromUtf8("outPutTextEdit"));
+        sizePolicy.setHeightForWidth(outPutTextEdit->sizePolicy().hasHeightForWidth());
+        outPutTextEdit->setSizePolicy(sizePolicy);
         outPutTextEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
 
         verticalLayout_3->addWidget(outPutTextEdit);
@@ -250,7 +254,9 @@ public:
 
         inPutTextEdit = new QTextEdit(verticalWidget);
         inPutTextEdit->setObjectName(QString::fromUtf8("inPutTextEdit"));
-        inPutTextEdit->setMinimumSize(QSize(275, 71));
+        sizePolicy.setHeightForWidth(inPutTextEdit->sizePolicy().hasHeightForWidth());
+        inPutTextEdit->setSizePolicy(sizePolicy);
+        inPutTextEdit->setMinimumSize(QSize(250, 71));
         inPutTextEdit->setMaximumSize(QSize(16777215, 130));
         inPutTextEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 255, 255);"));
         inPutTextEdit->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);

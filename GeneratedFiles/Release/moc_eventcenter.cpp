@@ -325,10 +325,10 @@ void EventCenter::EventShowRemoteCursor(float _t1, float _t2)
 }
 
 // SIGNAL 18
-void EventCenter::EventOnStartVideoMonitor()
-{
-    QMetaObject::activate(this, &staticMetaObject, 18, 0);
-}
+//void EventCenter::EventOnStartVideoMonitor()
+//{
+//    QMetaObject::activate(this, &staticMetaObject, 18, 0);
+//}
 
 // SIGNAL 19
 void EventCenter::EventOnStopVideoMonitor()

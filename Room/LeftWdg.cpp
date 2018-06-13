@@ -344,12 +344,12 @@ void LeftWdg::OnSetBigVideo()
 	{
 		if(userInfo.sessionID == g_pMeetingFrame->GetMySessionID())
 		{
-			VideoMgr::GetInstance()->SetBigVideo(0);
+		//	VideoMgr::GetInstance()->SetBigVideo(0);
 			g_pMeetingFrame->SetAsBigVideo(g_pMeetingFrame->GetMySessionID());
 		}
 		else
 		{
-			VideoMgr::GetInstance()->SetBigVideo(userInfo.sessionID);
+			//VideoMgr::GetInstance()->SetBigVideo(userInfo.sessionID);
 			g_pMeetingFrame->SetAsBigVideo(userInfo.sessionID);
 		}
 		

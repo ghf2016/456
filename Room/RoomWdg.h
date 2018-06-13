@@ -33,17 +33,17 @@ public:
 	void OnRoomModeChange(int mode);
 
 	public slots:
-		void OnOpenDoc(QString url,int index,int total);
-		void OnCloseDoc();
+		//void OnOpenDoc(QString url,int index,int total);
+		//void OnCloseDoc();
 		public slots:
 			void OnClose();
 			virtual void OnSysMenuClick();
-			void OnTrunLeft();
+			//void OnTrunLeft();
 			void OnStartAVSetting();
 			void OnBtnMicClick();
 			void OnBtnSpeakerClick();
-			void OnShowVideo();
-			void OnCloseVideo();
+		//	void OnShowVideo();
+		//	void OnCloseVideo();
 			//add by xuluorong
 			void OnVoiceTestGuide();
 			void OnApplyAdmin();
@@ -57,22 +57,22 @@ public:
 			void OnModifyPassWord();
 			void OnAbout();
 			//共享PPT
-			void OnShowPPT();
+			//void OnShowPPT();
 
-			void OnBtnShareCursor();
-			void OnBtnQuitShareDoc();
+			//void OnBtnShareCursor();
+			//void OnBtnQuitShareDoc();
 
-			void OnShowRemoteCursor(float x,float y);
-			void OnCloseRemoteCursor();
+		//	void OnShowRemoteCursor(float x,float y);
+		//	void OnCloseRemoteCursor();
 			//视频监控
-			void OnVideoMonitorClick();
+		//	void OnVideoMonitorClick();
 
 			void OnQuitFullScreen();
 			
 			void OnFullScreen();
 public:
-			void OnStopVideoMonitor();
-			void OnStartVideoMonitor();
+		//	void OnStopVideoMonitor();
+		//	void OnStartVideoMonitor();
 			
 protected:
 
@@ -114,7 +114,7 @@ private:
 	LabelNetInfo* m_pLabelNetInfo;
 
 	//共享文档窗口
-	WdgDocShare*  m_pWdgDocShare;
+//	WdgDocShare*  m_pWdgDocShare;
 
 	VideoWin *m_pVideoWin;
 	//是否已启动视频监控

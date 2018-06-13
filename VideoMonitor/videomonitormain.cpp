@@ -32,8 +32,8 @@ VideoMonitorMain::VideoMonitorMain(QWidget *parent)
 	m_videoMgr = new VideoMonitorMgr(ui.wdgVideoContainer);
 	connect(ui.cmbVideoNumber,SIGNAL(currentIndexChanged(int)),this,
 		SLOT(OnVideoModeChange(int)),Qt::QueuedConnection);
-	connect(ui.btnStart,SIGNAL(clicked()),this,SLOT(OnBtnStartClick()));
-	connect(ui.btnStop,SIGNAL(clicked()),this,SLOT(OnBtnStopClick()));
+//	connect(ui.btnStart,SIGNAL(clicked()),this,SLOT(OnBtnStartClick()));
+//	connect(ui.btnStop,SIGNAL(clicked()),this,SLOT(OnBtnStopClick()));
 	connect(ui.btnPrev,SIGNAL(clicked()),this,SLOT(OnBtnPrevClick()));
 	connect(ui.btnNext,SIGNAL(clicked()),this,SLOT(OnBtnNextClick()));
 	connect(ui.chkAutoPage,SIGNAL(clicked()),this,SLOT(OnChkAutoPage()));
@@ -70,21 +70,21 @@ void VideoMonitorMain::OnVideoModeChange(int index){
 }
 
 //Æô¶¯¼à¿Ø
-void VideoMonitorMain::OnBtnStartClick()
-{
-	if(g_pMeetingFrame!=NULL){
-		g_pMeetingFrame->StartVideoMonitor();
-	}
-}
+//void VideoMonitorMain::OnBtnStartClick()
+//{
+//	if(g_pMeetingFrame!=NULL){
+//		g_pMeetingFrame->StartVideoMonitor();
+//	}
+//}
 //Í£Ö¹¼à¿Ø
-void VideoMonitorMain::OnBtnStopClick()
-{
-	StopRecvAllVideo();
-	if(g_pMeetingFrame!=NULL){
-		g_pMeetingFrame->StopVideoMonitor();
-	}
-	m_videoList.clear();
-}
+//void VideoMonitorMain::OnBtnStopClick()
+//{
+//	StopRecvAllVideo();
+//	if(g_pMeetingFrame!=NULL){
+//		g_pMeetingFrame->StopVideoMonitor();
+//	}
+//	m_videoList.clear();
+//}
 
 void VideoMonitorMain::OnBtnPrevClick()
 {

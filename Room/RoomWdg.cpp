@@ -28,7 +28,7 @@ RoomWdg * RoomWdg::GetInstance()
 RoomWdg::RoomWdg(QWidget *parent,CommonWndFlags WndFlag)  //主要分为 2个部分，左边的聊天室，右边和上下的会议
 	: CCommonWidget(parent, WndFlag, Qt::Dialog)
 {
-	m_bHasStartVideoMonitor = false;
+	//m_bHasStartVideoMonitor = false;
 	m_bHasStartPublishVideo = false;                      //
 	m_bResumeJK = false;
 	m_bStartAudio = false;
@@ -40,33 +40,38 @@ RoomWdg::RoomWdg(QWidget *parent,CommonWndFlags WndFlag)  //主要分为 2个部分，左
 	ui.setupUi(this);
 	ui.btnFullScreen->setVisible(true);         // roomWdg ui下面的 全屏按钮？
 	ui.btnShowPPT->setVisible(false);           //这个是ppt按钮， 直接就不可见
-	m_pVideoMgr = new VideoMgr(ui.videoFrm);    //这个是一个空白的 QWeight！！！！！！！！！！就是视频会议的地方！！！！！！
-	QVBoxLayout* vBox = new QVBoxLayout();
+	ui.btnShowVideo->setVisible(false);
+	ui.btnTurnLeft->setVisible(false);
+	ui.btnCloseVideo->setVisible(false);
+	//m_pVideoMgr = new VideoMgr(ui.videoFrm);    //这个是一个空白的 QWeight！！！！！！！！！！就是视频会议的地方！！！！！！
+	
+	ui.btnShowVideo->setVisible(false);
+	QVBoxLayout* vBox = new QVBoxLayout();      //指针来表示控件
 	vBox->setMargin(0);
 	vBox->setSpacing(0);
 	ui.leftFrm->setLayout(vBox);               //这个leftFrm是那个聊天室的窗口。这个 先设置一个垂直布局
-	m_leftWdg = new LeftWdg(ui.leftFrm);       //垂直方向上排列控件
+	m_leftWdg = new LeftWdg(ui.leftFrm);       //
 	vBox->addWidget(m_leftWdg);                   
 	//this->setAutoFillBackground(false);       //这个leftwdg还是专门定义的一个类。。    
 
 	m_pVideoWin = new VideoWin(this);            //这些也是定义的类    
 	m_pVideoWin->setVisible(false);
 
-	WdgNetInfo::GetInstance()->setParent(this);   //网络状态？
+	WdgNetInfo::GetInstance()->setParent(this);   //网络状态？ 设定父族
 	WdgNetInfo::GetInstance()->move(14,this->geometry().height()-105);
 	WdgNetInfo::GetInstance()->hide();
 
 	//CreateSystemTitle(ui.titleBar);
 	CreateSystemButton(ui.sysBtnBar2,enum_GGApplication);                    //这个是创建系统 关闭按钮
 	connect(this, SIGNAL(OnClose()), this, SLOT(OnClose()));
-	connect(ui.btnTurnLeft,SIGNAL(clicked()),this,SLOT(OnTrunLeft()));      //这些能够点的 全是按钮
+	//connect(ui.btnTurnLeft,SIGNAL(clicked()),this,SLOT(OnTrunLeft()));      //这些能够点的 全是按钮
 	connect(ui.btnMic,SIGNAL(clicked()),this,SLOT(OnBtnMicClick()));        //那些互动效果全是按钮实现的
 	//connect(ui.btnNetInfo,SIGNAL(clicked()),this,SLOT(OnBtnNetInfo()));   //
 	connect(ui.btnSpeaker,SIGNAL(clicked()),this,SLOT(OnBtnSpeakerClick())); //
-	connect(ui.btnShowVideo,SIGNAL(clicked()),this,SLOT(OnShowVideo()));
-	connect(ui.btnShowPPT,SIGNAL(clicked()),this,SLOT(OnShowPPT()));
+	//connect(ui.btnShowVideo,SIGNAL(clicked()),this,SLOT(OnShowVideo()));
+	//connect(ui.btnShowPPT,SIGNAL(clicked()),this,SLOT(OnShowPPT()));
 	connect(ui.btnFullScreen,SIGNAL(clicked()),this,SLOT(OnFullScreen()));
-	connect(ui.btnCloseVideo,SIGNAL(clicked()),this,SLOT(OnCloseVideo()));
+//	connect(ui.btnCloseVideo,SIGNAL(clicked()),this,SLOT(OnCloseVideo()));
 	ui.btnCloseVideo->setVisible(false);
 
 	connect(ui.sliderMic,SIGNAL(sliderReleased()),this,SLOT(OnMicVolumeChange()));    //滑动
@@ -81,10 +86,10 @@ RoomWdg::RoomWdg(QWidget *parent,CommonWndFlags WndFlag)  //主要分为 2个部分，左
 	//初始化菜单
 	//if(m_pMainMenu == NULL)
 	{
-		m_pMainMenu= new QMenu();                                //这个是applyAdmin的菜单
+		m_pMainMenu= new QMenu();                                //这个是applyAdmin的菜单  那个系统旁边的按钮
 		menuApplyAdmin = m_pMainMenu->addAction(("申请成为主持人"));
 		connect(menuApplyAdmin,SIGNAL(triggered()),this,SLOT(OnApplyAdmin()));
-		m_pMainMenu->addSeparator();
+		m_pMainMenu->addSeparator();                                     //这个菜单是那种 下拉菜单
 		modeGroup = new QActionGroup(this);
 		menuModeMeeting = m_pMainMenu->addAction(tr("会议模式"));
 		menuModeLive = m_pMainMenu->addAction(tr("直播模式"));
@@ -110,8 +115,8 @@ RoomWdg::RoomWdg(QWidget *parent,CommonWndFlags WndFlag)  //主要分为 2个部分，左
 		connect(menuAVSetting,SIGNAL(triggered()),this,SLOT(OnStartAVSetting()));
 		menuVoiceTestGuide = m_pMainMenu->addAction(tr("语音测试向导"));
 		connect(menuVoiceTestGuide,SIGNAL(triggered()),this,SLOT(OnVoiceTestGuide()));
-		menuVideoMonitor = m_pMainMenu->addAction(tr("会场巡视"));
-		connect(menuVideoMonitor,SIGNAL(triggered()),this,SLOT(OnVideoMonitorClick()));
+		//menuVideoMonitor = m_pMainMenu->addAction(tr("会场巡视"));
+		//connect(menuVideoMonitor,SIGNAL(triggered()),this,SLOT(OnVideoMonitorClick()));
 		m_pMainMenu->addSeparator();
 		modifyPassWord = m_pMainMenu->addAction(tr("修改登录密码"));
 		connect(modifyPassWord,SIGNAL(triggered()),this,SLOT(OnModifyPassWord()));
@@ -123,18 +128,19 @@ RoomWdg::RoomWdg(QWidget *parent,CommonWndFlags WndFlag)  //主要分为 2个部分，左
 		{
 			menuModeMeeting->setDisabled(true);
 			menuModeLive->setDisabled(true);
-			menuVideoMonitor->setDisabled(true);
+			//menuVideoMonitor->setDisabled(true);
 		}
 	}
 
 	
-	m_pWdgDocShare = new WdgDocShare(ui.videoFrm); // 文件共享？
-	m_pWdgDocShare->hide();
-	m_pVideoMgr->GetLayout()->addWidget(m_pWdgDocShare,0,0,3,3);
- 	connect(m_pWdgDocShare->m_toolBar->ui.powerBtn,SIGNAL(clicked()),this,SLOT(OnBtnQuitShareDoc()));
- 	connect(m_pWdgDocShare->m_toolBar->ui.penBtn,SIGNAL(clicked()),this,SLOT(OnBtnShareCursor()));
-	connect(m_pWdgDocShare->m_pProgressBar->ui.closeBtn
-		,SIGNAL(clicked()),this,SLOT(OnCloseDoc()));
+	//m_pWdgDocShare = new WdgDocShare(ui.videoFrm); // 文件共享？      注释掉这个会报错
+	//m_pWdgDocShare->hide();       //这个功能 现在是隐藏了的吧！！！
+	                                                             //现在这些都用一个 指针来指代一个 控件或者weight？
+	//m_pVideoMgr->GetLayout()->addWidget(m_pWdgDocShare,0,0,3,3); // m_pVideoMgr 这个是一个空白的 QWeight！！！！！！！！！
+ 	//connect(m_pWdgDocShare->m_toolBar->ui.powerBtn,SIGNAL(clicked()),this,SLOT(OnBtnQuitShareDoc()));
+ 	//connect(m_pWdgDocShare->m_toolBar->ui.penBtn,SIGNAL(clicked()),this,SLOT(OnBtnShareCursor()));   //这些功能想一个画布一样。
+	//connect(m_pWdgDocShare->m_pProgressBar->ui.closeBtn
+	//	,SIGNAL(clicked()),this,SLOT(OnCloseDoc()));              //把这些的功能注释掉
 
 	m_pBtnQuitFullScreen = new QPushButton();  //退出全屏
 	m_pBtnQuitFullScreen->setText(tr(""));
@@ -149,95 +155,95 @@ RoomWdg::~RoomWdg()
 
 }
 //启动视频监控界面
-void RoomWdg::OnVideoMonitorClick()
-{
-	VideoMonitorMain::GetInstance()->show();
+//void RoomWdg::OnVideoMonitorClick()
+//{
+//	VideoMonitorMain::GetInstance()->show();
+//
+//}
 
-}
+//void RoomWdg::OnShowRemoteCursor(float x,float y)
+//{
+//	if(m_pWdgDocShare)
+//		m_pWdgDocShare->OnShowRemoteCursor(x,y);
+//}
 
-void RoomWdg::OnShowRemoteCursor(float x,float y)
-{
-	if(m_pWdgDocShare)
-		m_pWdgDocShare->OnShowRemoteCursor(x,y);
-}
-
-void RoomWdg::OnCloseRemoteCursor()
-{
-	if(m_pWdgDocShare)
-		m_pWdgDocShare->OnCloseRemoteCursor();
-}
+//void RoomWdg::OnCloseRemoteCursor()
+//{
+//	if(m_pWdgDocShare)
+//		m_pWdgDocShare->OnCloseRemoteCursor();
+//}
 
 
-void RoomWdg::OnBtnShareCursor()
-{
+//void RoomWdg::OnBtnShareCursor()
+//{
 	//qDebug()<<"OnBtnShareCursor";
-	m_pWdgDocShare->ShareCursor();
-}
+//	m_pWdgDocShare->ShareCursor();
+//}
 
-void RoomWdg::OnBtnQuitShareDoc()
-{
-	qDebug()<<"OnBtnQuitShareDoc";
-	m_pVideoMgr->ShowAll();
-	m_pWdgDocShare->CloseShareDoc();
-	if(g_pMeetingFrame)
-	{
-		g_pMeetingFrame->CloseDoc();
-	}
-}
+//void RoomWdg::OnBtnQuitShareDoc()
+//{
+//	qDebug()<<"OnBtnQuitShareDoc";
+//	m_pVideoMgr->ShowAll();
+//	m_pWdgDocShare->CloseShareDoc();
+//	if(g_pMeetingFrame)
+//	{
+//		g_pMeetingFrame->CloseDoc();
+//	}
+//}
 
 //打开远程服务器上的文档
-void RoomWdg::OnOpenDoc(QString url,int index,int total)
-{
-	//qDebug()<<"open url2:"<<url.data()<<"index:"<<index<<" total:"<<total;
-	if(g_pMeetingFrame->HasStartVideo()){
-		OnCloseVideo();
-	}
-
-	if(m_pWdgDocShare->isVisible()==false)
-	{
-		m_pVideoMgr->HideAll();
-		m_pWdgDocShare->show();
-	}
-	QString newUrl =QString("%1/UploadDoc/%2/%3.JPG").arg(g_pMeetingFrame->GetBaseUrl()).arg(url).arg(index);
-	//http://211.151.17.177/meeting//UploadDoc/c878feaf43247aff65a3b14b896c4a65/2.JPG
-	m_pWdgDocShare->DisplayRemoteDoc(newUrl,url,index,total);
-
-}
+//void RoomWdg::OnOpenDoc(QString url,int index,int total)
+//{
+//	//qDebug()<<"open url2:"<<url.data()<<"index:"<<index<<" total:"<<total;
+//	if(g_pMeetingFrame->HasStartVideo()){
+//		OnCloseVideo();
+//	}
+//
+//	if(m_pWdgDocShare->isVisible()==false)
+//	{
+//		m_pVideoMgr->HideAll();
+//		m_pWdgDocShare->show();
+//	}
+//	QString newUrl =QString("%1/UploadDoc/%2/%3.JPG").arg(g_pMeetingFrame->GetBaseUrl()).arg(url).arg(index);
+//	//http://211.151.17.177/meeting//UploadDoc/c878feaf43247aff65a3b14b896c4a65/2.JPG
+//	m_pWdgDocShare->DisplayRemoteDoc(newUrl,url,index,total);
+//
+//}
 
 //通知房间成员关闭文档共享功能
 
-void RoomWdg::OnCloseDoc()
-{
-	m_pVideoMgr->ShowAll();
-	m_pWdgDocShare->CloseShareDoc();
-
-}
+//void RoomWdg::OnCloseDoc()
+//{
+//	m_pVideoMgr->ShowAll();
+//	m_pWdgDocShare->CloseShareDoc();
+//
+//}
 
 //共享PPT,弹出窗口，选择文件，转换文件，上传文件，通知房间成员打开服务器上的JPG图片
-void RoomWdg::OnShowPPT()
-{
-	//打开选择文件对话框
-	
-	QString fileName = QFileDialog::getOpenFileName(this,
-		tr("打开文档"), "", tr("文档 (*.ppt *.pptx)"));
-
-	if(fileName.length()>0)
-	{
-		
-		m_pVideoMgr->HideAll();
-		m_pWdgDocShare->show();
-		QApplication::processEvents();
-
-		m_pWdgDocShare->ShowPPT(fileName);
-	}
-	
-	/*
-	m_pVideoMgr->HideAll();
-	m_pWdgDocShare->show();
-	QApplication::processEvents();
-	m_pWdgDocShare->DisplayLocalDoc("857b549cdb88290f079e2858f7b4226d",61);
-	*/
-}
+//void RoomWdg::OnShowPPT()
+//{
+//	//打开选择文件对话框
+//	
+//	QString fileName = QFileDialog::getOpenFileName(this,
+//		tr("打开文档"), "", tr("文档 (*.ppt *.pptx)"));
+//
+//	if(fileName.length()>0)
+//	{
+//		
+//		m_pVideoMgr->HideAll();
+//		m_pWdgDocShare->show();
+//		QApplication::processEvents();
+//
+//		m_pWdgDocShare->ShowPPT(fileName);
+//	}
+//	
+//	/*
+//	m_pVideoMgr->HideAll();
+//	m_pWdgDocShare->show();
+//	QApplication::processEvents();
+//	m_pWdgDocShare->DisplayLocalDoc("857b549cdb88290f079e2858f7b4226d",61);
+//	*/
+//}
 
 
 
@@ -249,7 +255,7 @@ void RoomWdg::OnNetInfo(int delay,int uploadLost,int downloadLost)
 	case 0:
 		{
 			if(delay>200)
-				m_pLabelNetInfo->setPixmap(QPixmap(":/skin/room/wlzl_2.png"));
+				m_pLabelNetInfo->setPixmap(QPixmap(":/skin/room/wlzl_2.png"));//根据时延来切换图
 			else
 				m_pLabelNetInfo->setPixmap(QPixmap(":/skin/room/wlzl_1.png"));
 		}
@@ -275,88 +281,88 @@ void RoomWdg::OnNetInfo(int delay,int uploadLost,int downloadLost)
 	
 }
 
-void RoomWdg::OnStartVideoMonitor()
-{
-	if(g_pMeetingFrame!=NULL&&!m_bHasStartPublishVideo){
-		m_bResumeJK = false;
-		m_bHasStartVideoMonitor = true;
-		uint32_t ssrc = g_pMeetingFrame->StartPublishVideo2(0,AppSetting::GetInstance()->GetCameraIndex(),m_pVideoWin);
-		m_pVideoWin->SetFree(false);
-		if(ssrc>0)
-			g_pMeetingFrame->SendVideoSSRCToAdmin(0,ssrc);
-	}
-}
+//void RoomWdg::OnStartVideoMonitor()
+//{
+//	if(g_pMeetingFrame!=NULL&&!m_bHasStartPublishVideo){
+//		m_bResumeJK = false;
+//		m_bHasStartVideoMonitor = true;
+//		uint32_t ssrc = g_pMeetingFrame->StartPublishVideo2(0,AppSetting::GetInstance()->GetCameraIndex(),m_pVideoWin);
+//		m_pVideoWin->SetFree(false);
+//		if(ssrc>0)
+//			g_pMeetingFrame->SendVideoSSRCToAdmin(0,ssrc);
+//	}
+//}
 
-void RoomWdg::OnStopVideoMonitor()
-{
-	if(g_pMeetingFrame!=NULL&&m_bHasStartVideoMonitor){
-		m_bHasStartVideoMonitor = false;
-		g_pMeetingFrame->StopPublishVideo2(0);
-		m_pVideoWin->SetFree(true);
-	}
-}
+//void RoomWdg::OnStopVideoMonitor()
+//{
+//	if(g_pMeetingFrame!=NULL&&m_bHasStartVideoMonitor){
+//		m_bHasStartVideoMonitor = false;
+//		g_pMeetingFrame->StopPublishVideo2(0);
+//		m_pVideoWin->SetFree(true);
+//	}
+//}
 
 //如果已打开监控视频，关闭监控视频
-void RoomWdg::OnShowVideo()
-{
-	if(m_bHasStartVideoMonitor){
-		m_bResumeJK = true;
-		OnStopVideoMonitor();
-	}
+//void RoomWdg::OnShowVideo()
+//{
+//	if(m_bHasStartVideoMonitor){
+//		m_bResumeJK = true;
+//		OnStopVideoMonitor();
+//	}
+//
+//	ui.btnCloseVideo->setVisible(true);
+//	ui.btnShowVideo->setVisible(false);
+//	//打开本地视频
+//	VIDEO_FORMAT vf;
+//	//HWND videoWnd;
+//
+//	vf.videoCodec =H264;
+//	vf.videoSize = VIDEO_SIZE_320X240;
+//	vf.videoFrameRate = 15;
+//	vf.videoQuality = 312;
+//	IVideoWin *videoWnd = (m_pVideoMgr->GetFreeVideo());
+//	if(videoWnd == NULL)
+//	{
+//		MessageBox(NULL,L"视频位置已占满",NULL,NULL);
+//		return;
+//	}
+//	if(g_pMeetingFrame!=NULL)
+//	{
+//		g_pMeetingFrame->StartPublishVideo(0,AppSetting::GetInstance()->GetCameraIndex(),videoWnd);
+//		m_bHasStartPublishVideo = true;
+//	}
+//	
+//}
 
-	ui.btnCloseVideo->setVisible(true);
-	ui.btnShowVideo->setVisible(false);
-	//打开本地视频
-	VIDEO_FORMAT vf;
-	//HWND videoWnd;
 
-	vf.videoCodec =H264;
-	vf.videoSize = VIDEO_SIZE_320X240;
-	vf.videoFrameRate = 15;
-	vf.videoQuality = 312;
-	IVideoWin *videoWnd = (m_pVideoMgr->GetFreeVideo());
-	if(videoWnd == NULL)
-	{
-		MessageBox(NULL,L"视频位置已占满",NULL,NULL);
-		return;
-	}
-	if(g_pMeetingFrame!=NULL)
-	{
-		g_pMeetingFrame->StartPublishVideo(0,AppSetting::GetInstance()->GetCameraIndex(),videoWnd);
-		m_bHasStartPublishVideo = true;
-	}
-	
-}
+//void RoomWdg::OnCloseVideo()
+//{
+//	if(m_bHasStartPublishVideo == false)
+//		return ;
+//	ui.btnCloseVideo->setVisible(false);
+//	ui.btnShowVideo->setVisible(true);
+//	if(g_pMeetingFrame)
+//	{
+//		VideoMgr::GetInstance()->GivebackVideo(0); //回收视频窗口
+//		g_pMeetingFrame->StopPublishVideo(0);
+//		m_bHasStartPublishVideo = false;
+//	}
+//	this->setFocus();
+//	if(m_bResumeJK == true)
+//	{
+//		OnStartVideoMonitor();
+//	}
+//	
+//}
 
-
-void RoomWdg::OnCloseVideo()
-{
-	if(m_bHasStartPublishVideo == false)
-		return ;
-	ui.btnCloseVideo->setVisible(false);
-	ui.btnShowVideo->setVisible(true);
-	if(g_pMeetingFrame)
-	{
-		VideoMgr::GetInstance()->GivebackVideo(0); //回收视频窗口
-		g_pMeetingFrame->StopPublishVideo(0);
-		m_bHasStartPublishVideo = false;
-	}
-	this->setFocus();
-	if(m_bResumeJK == true)
-	{
-		OnStartVideoMonitor();
-	}
-	
-}
-
-void RoomWdg::OnTrunLeft()
-{
-	if(ui.leftFrm->isHidden())
-		ui.leftFrm->show();
-	else
-		ui.leftFrm->hide();
-
-}
+//void RoomWdg::OnTrunLeft()       关掉那个 点一下隐藏语音的功能
+//{
+//	if(ui.leftFrm->isHidden())
+//		ui.leftFrm->show();
+//	else
+//		ui.leftFrm->hide();
+//
+//}
 
 void RoomWdg::OnLabelNetInfoEnter()
 {
@@ -409,18 +415,18 @@ void RoomWdg::OnRoomModeChange(int mode)
 	if(g_pMeetingFrame->HasStartVideo())
 	{
 		g_pMeetingFrame->StopPublishVideo(0);
-		VideoMgr::GetInstance()->GivebackVideo(0); //回收视频窗口
+		//VideoMgr::GetInstance()->GivebackVideo(0); //回收视频窗口
 	}
 
 	if(mode == 1 || g_pMeetingFrame->GetUserRole(0)==1)
 	{
-		ui.btnShowVideo->setVisible(true);
-		ui.btnCloseVideo->setVisible(false);
+		//ui.btnShowVideo->setVisible(true);
+		//ui.btnCloseVideo->setVisible(false);
 	}
 	else
 	{
-		ui.btnShowVideo->setVisible(false);
-		ui.btnCloseVideo->setVisible(false);
+		//ui.btnShowVideo->setVisible(false);
+		//ui.btnCloseVideo->setVisible(false);
 	}
 }
 
@@ -440,13 +446,13 @@ void RoomWdg::UpdateUI()
 		{
 			if(g_pMeetingFrame->HasStartVideo())
 			{
-				ui.btnShowVideo->setVisible(false);
-				ui.btnCloseVideo->setVisible(true);
+				//ui.btnShowVideo->setVisible(false);
+				//ui.btnCloseVideo->setVisible(true);
 			}
 			else
 			{
-				ui.btnShowVideo->setVisible(true);
-				ui.btnCloseVideo->setVisible(false);
+				//ui.btnShowVideo->setVisible(true);
+				//ui.btnCloseVideo->setVisible(false);
 			}
 			
 		}
@@ -458,13 +464,13 @@ void RoomWdg::UpdateUI()
 
 		if(g_pMeetingFrame->GetUserRole(0) == 1)
 		{
-			m_pWdgDocShare->ShowCloseDocbtn(true);
+			//m_pWdgDocShare->ShowCloseDocbtn(true);
 			ui.btnShowPPT->setVisible(true);
 		}
 		else
 		{
 			ui.btnShowPPT->setVisible(false);
-			m_pWdgDocShare->ShowCloseDocbtn(false);
+			//m_pWdgDocShare->ShowCloseDocbtn(false);
 		}
 	}
 	//this->update();
@@ -496,13 +502,13 @@ void RoomWdg::OnSysMenuClick()
 	{
 		menuModeMeeting->setDisabled(false);
 		menuModeLive->setDisabled(false);
-		menuVideoMonitor->setDisabled(false);
+		//menuVideoMonitor->setDisabled(false);
 	}
 	else
 	{
 		menuModeMeeting->setDisabled(true);
 		menuModeLive->setDisabled(true);
-		menuVideoMonitor->setDisabled(true);
+		//menuVideoMonitor->setDisabled(true);
 	}
 	QPoint curPos = QCursor::pos();
 	curPos-=QPoint(60,-10);
@@ -517,7 +523,7 @@ void RoomWdg::OnModeMeeting()
 	{
 		g_pMeetingFrame->SetRoomMode(1);
 		OnRoomModeChange(1);
-		VideoMgr::GetInstance()->OnRoomModeChange(1);
+		//VideoMgr::GetInstance()->OnRoomModeChange(1);
 	}
 }
  //直播模式
@@ -530,7 +536,7 @@ void RoomWdg::OnModeLive()
 	{
 		g_pMeetingFrame->SetRoomMode(2);
 		OnRoomModeChange(2);
-		VideoMgr::GetInstance()->OnRoomModeChange(2);
+		//VideoMgr::GetInstance()->OnRoomModeChange(2);
 	}
 }
 

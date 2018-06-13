@@ -210,7 +210,7 @@ bool DlgAVSetting::StartVideo()
 	m_bResumeVideo = g_pMeetingFrame->HasStartVideo();
 	if(g_pMeetingFrame->HasStartVideo())
 	{
-		VideoMgr::GetInstance()->GivebackVideo(0);
+		//VideoMgr::GetInstance()->GivebackVideo(0);
 		g_pMeetingFrame->StopPublishVideo(0);
 	}
 

@@ -82,8 +82,8 @@ public:
 	virtual uint32_t StartPublishVideo2(uint64_t ulToUserID,uint32_t ulChannelID,IVideoWin*videoWin);
 	virtual void StopPublishVideo2(uint32_t ulChannelID);
 
-	virtual void StartVideoMonitor();
-	virtual void StopVideoMonitor();
+//	virtual void StartVideoMonitor();
+//	virtual void StopVideoMonitor();
 	//暂停发送视频
 	virtual void PauseVideo(uint64_t userId);
 	//恢复发送视频
@@ -166,7 +166,7 @@ public:
 	//回调，响应信令
 	int  OnRecvRemoteAudio(uint64_t ulRemoteUserID , unsigned long ulChannelID, uint32_t ulSSRC);
 	void OnCloseRemoteAudio(uint64_t ulRemoteUserID,uint32_t ulChannelID);
-	int  OnRecvRemoteVideo(uint64_t ulRemoteUserID ,unsigned long ulChannelID, uint32_t ulSSRC);
+//	int  OnRecvRemoteVideo(uint64_t ulRemoteUserID ,unsigned long ulChannelID, uint32_t ulSSRC);
 	void OnCloseRemoteVideo(uint64_t ulRemoteUserID,uint32_t ulChannelID);
 	
 	void OnSetAsBigVideo(uint64_t ulUserID);
@@ -184,8 +184,8 @@ public:
 	void On_MeetingEvent_RoomMode_Change(int mode);
 	void On_MeetingEvent_RequireKeyFrame(uint32_t ssrc);
 
-	void OnStartVideoMonitor();
-	void OnStopVideoMonitor();
+//	void OnStartVideoMonitor();
+//	void OnStopVideoMonitor();
 	void OnPauseVideo();
 	void OnResumeVideo();
 	void OnRecvVideoSSRC(uint64_t userId,uint32_t ssrc);

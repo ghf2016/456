@@ -204,8 +204,8 @@ public:
 	virtual char* GetBaseUrl() = 0;
 
 	/*************视频监控相关*****************/
-	virtual void StartVideoMonitor() = 0;
-	virtual void StopVideoMonitor() = 0;
+//	virtual void StartVideoMonitor() = 0;
+//	virtual void StopVideoMonitor() = 0;
 	//暂停发送视频
 	virtual void PauseVideo(uint64_t userId) = 0;
 	//恢复发送视频
@@ -270,8 +270,8 @@ public:
 	virtual void On_MeetingEvent_RoomMode_Change(int mode) = 0;
 
 	/*************视频监控相关*****************/
-	virtual void On_MeetingEvent_StartVideoMonitor() = 0;
-	virtual void On_MeetingEvent_StopVideoMonitor() = 0;
+//	virtual void On_MeetingEvent_StartVideoMonitor() = 0;
+//	virtual void On_MeetingEvent_StopVideoMonitor() = 0;
 	//暂停发送视频
 	virtual void On_MeetingEvent_PauseVideo() = 0;
 	//恢复发送视频

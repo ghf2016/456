@@ -72,7 +72,7 @@ public:
     {
         if (RoomWdg->objectName().isEmpty())
             RoomWdg->setObjectName(QString::fromUtf8("RoomWdg"));
-        RoomWdg->resize(886, 690);
+        RoomWdg->resize(800, 690);
         RoomWdg->setMinimumSize(QSize(800, 600));
         verticalLayout = new QVBoxLayout(RoomWdg);
         verticalLayout->setSpacing(0);
@@ -102,8 +102,13 @@ public:
         titleBar->setContentsMargins(23, -1, -1, -1);
         lblLogo = new QLabel(wdgTop);
         lblLogo->setObjectName(QString::fromUtf8("lblLogo"));
-        lblLogo->setMinimumSize(QSize(242, 46));
-        lblLogo->setMaximumSize(QSize(500, 50));
+        QSizePolicy sizePolicy1(QSizePolicy::Fixed, QSizePolicy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(lblLogo->sizePolicy().hasHeightForWidth());
+        lblLogo->setSizePolicy(sizePolicy1);
+        lblLogo->setMinimumSize(QSize(250, 46));
+        lblLogo->setMaximumSize(QSize(405, 400));
         lblLogo->setPixmap(QPixmap(QString::fromUtf8(":/login/login/logo4.png")));
         lblLogo->setScaledContents(false);
 
@@ -123,7 +128,12 @@ public:
 
         lblRoomName = new QLabel(wdgTop);
         lblRoomName->setObjectName(QString::fromUtf8("lblRoomName"));
-        lblRoomName->setMinimumSize(QSize(250, 50));
+        QSizePolicy sizePolicy2(QSizePolicy::Minimum, QSizePolicy::Minimum);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(lblRoomName->sizePolicy().hasHeightForWidth());
+        lblRoomName->setSizePolicy(sizePolicy2);
+        lblRoomName->setMinimumSize(QSize(140, 50));
         lblRoomName->setStyleSheet(QString::fromUtf8("border: 0px;\n"
 "font-size:12pt;\n"
 "font-family:\345\276\256\350\275\257\351\233\205\351\273\221,\345\256\213\344\275\223;\n"
@@ -184,33 +194,28 @@ public:
         horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
         splitter = new QSplitter(wdgClient);
         splitter->setObjectName(QString::fromUtf8("splitter"));
-        QSizePolicy sizePolicy1(QSizePolicy::Expanding, QSizePolicy::Preferred);
-        sizePolicy1.setHorizontalStretch(0);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(splitter->sizePolicy().hasHeightForWidth());
-        splitter->setSizePolicy(sizePolicy1);
+        QSizePolicy sizePolicy3(QSizePolicy::Expanding, QSizePolicy::Preferred);
+        sizePolicy3.setHorizontalStretch(0);
+        sizePolicy3.setVerticalStretch(0);
+        sizePolicy3.setHeightForWidth(splitter->sizePolicy().hasHeightForWidth());
+        splitter->setSizePolicy(sizePolicy3);
         splitter->setOrientation(Qt::Horizontal);
         splitter->setOpaqueResize(true);
         splitter->setHandleWidth(2);
         splitter->setChildrenCollapsible(true);
         leftFrm = new QWidget(splitter);
         leftFrm->setObjectName(QString::fromUtf8("leftFrm"));
-        QSizePolicy sizePolicy2(QSizePolicy::Fixed, QSizePolicy::Preferred);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(leftFrm->sizePolicy().hasHeightForWidth());
-        leftFrm->setSizePolicy(sizePolicy2);
-        leftFrm->setMinimumSize(QSize(270, 0));
-        leftFrm->setMaximumSize(QSize(500, 16777215));
+        QSizePolicy sizePolicy4(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy4.setHorizontalStretch(0);
+        sizePolicy4.setVerticalStretch(0);
+        sizePolicy4.setHeightForWidth(leftFrm->sizePolicy().hasHeightForWidth());
+        leftFrm->setSizePolicy(sizePolicy4);
+        leftFrm->setMinimumSize(QSize(400, 0));
+        leftFrm->setMaximumSize(QSize(16777215, 16777215));
         leftFrm->setStyleSheet(QString::fromUtf8("background-color: rgb(245, 245, 245);"));
         splitter->addWidget(leftFrm);
         centerFrm = new QWidget(splitter);
         centerFrm->setObjectName(QString::fromUtf8("centerFrm"));
-        QSizePolicy sizePolicy3(QSizePolicy::Maximum, QSizePolicy::Preferred);
-        sizePolicy3.setHorizontalStretch(1);
-        sizePolicy3.setVerticalStretch(0);
-        sizePolicy3.setHeightForWidth(centerFrm->sizePolicy().hasHeightForWidth());
-        centerFrm->setSizePolicy(sizePolicy3);
         centerFrm->setStyleSheet(QString::fromUtf8("background-color: rgb(245, 245, 245);"));
         layoutRight = new QHBoxLayout(centerFrm);
         layoutRight->setSpacing(0);
@@ -218,11 +223,8 @@ public:
         layoutRight->setObjectName(QString::fromUtf8("layoutRight"));
         btnTurnLeft = new QCheckBox(centerFrm);
         btnTurnLeft->setObjectName(QString::fromUtf8("btnTurnLeft"));
-        QSizePolicy sizePolicy4(QSizePolicy::Fixed, QSizePolicy::Fixed);
-        sizePolicy4.setHorizontalStretch(0);
-        sizePolicy4.setVerticalStretch(0);
-        sizePolicy4.setHeightForWidth(btnTurnLeft->sizePolicy().hasHeightForWidth());
-        btnTurnLeft->setSizePolicy(sizePolicy4);
+        sizePolicy1.setHeightForWidth(btnTurnLeft->sizePolicy().hasHeightForWidth());
+        btnTurnLeft->setSizePolicy(sizePolicy1);
         btnTurnLeft->setMinimumSize(QSize(5, 9));
         btnTurnLeft->setMaximumSize(QSize(5, 9));
         btnTurnLeft->setIconSize(QSize(5, 9));
@@ -231,6 +233,11 @@ public:
 
         videoFrm = new QWidget(centerFrm);
         videoFrm->setObjectName(QString::fromUtf8("videoFrm"));
+        QSizePolicy sizePolicy5(QSizePolicy::Minimum, QSizePolicy::Preferred);
+        sizePolicy5.setHorizontalStretch(0);
+        sizePolicy5.setVerticalStretch(0);
+        sizePolicy5.setHeightForWidth(videoFrm->sizePolicy().hasHeightForWidth());
+        videoFrm->setSizePolicy(sizePolicy5);
         videoFrm->setMaximumSize(QSize(6000, 6000));
 
         layoutRight->addWidget(videoFrm);
@@ -437,16 +444,16 @@ public:
 
         btnShowVideo = new QPushButton(wdgBotton);
         btnShowVideo->setObjectName(QString::fromUtf8("btnShowVideo"));
-        sizePolicy4.setHeightForWidth(btnShowVideo->sizePolicy().hasHeightForWidth());
-        btnShowVideo->setSizePolicy(sizePolicy4);
+        sizePolicy1.setHeightForWidth(btnShowVideo->sizePolicy().hasHeightForWidth());
+        btnShowVideo->setSizePolicy(sizePolicy1);
         btnShowVideo->setMinimumSize(QSize(99, 29));
 
         bottom_right->addWidget(btnShowVideo);
 
         btnCloseVideo = new QPushButton(wdgBotton);
         btnCloseVideo->setObjectName(QString::fromUtf8("btnCloseVideo"));
-        sizePolicy4.setHeightForWidth(btnCloseVideo->sizePolicy().hasHeightForWidth());
-        btnCloseVideo->setSizePolicy(sizePolicy4);
+        sizePolicy1.setHeightForWidth(btnCloseVideo->sizePolicy().hasHeightForWidth());
+        btnCloseVideo->setSizePolicy(sizePolicy1);
         btnCloseVideo->setMinimumSize(QSize(99, 29));
 
         bottom_right->addWidget(btnCloseVideo);

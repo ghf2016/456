@@ -116,7 +116,7 @@ void WdgDocShare::GotoPage(int index)
 		g_pMeetingFrame->OpenDoc(m_strDocName.toUtf8().data(),index,m_total);
 		//停止广播视频，节省流量
 		if(g_pMeetingFrame->HasStartVideo()){
-			RoomWdg::GetInstance()->OnCloseVideo();
+			//RoomWdg::GetInstance()->OnCloseVideo();
 		}
 		
 	}

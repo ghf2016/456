@@ -74,8 +74,8 @@ public:
 
 	virtual void On_MeetingEvent_CloseDoc();
 
-	virtual void On_MeetingEvent_StartVideoMonitor() ;
-	virtual void On_MeetingEvent_StopVideoMonitor() ;
+//	virtual void On_MeetingEvent_StartVideoMonitor() ;
+//	virtual void On_MeetingEvent_StopVideoMonitor() ;
 	//‘›Õ£∑¢ÀÕ ”∆µ
 	virtual void On_MeetingEvent_PauseVideo();
 	//ª÷∏¥∑¢ÀÕ ”∆µ
@@ -104,8 +104,8 @@ signals:
 	void EventCloseDoc();
 	void EventCloseRemoteCursor();
 	void EventShowRemoteCursor(float x,float y);
-	void EventOnStartVideoMonitor();
-	void EventOnStopVideoMonitor();
+//	void EventOnStartVideoMonitor();
+//	void EventOnStopVideoMonitor();
 	void EventRecvVideoSSRC(unsigned long long sessionId,unsigned int ssrc);
 	void EventUpdateSoft(QString url);
 	void EventNetEvent(unsigned int code);
@@ -115,7 +115,7 @@ signals:
 		int font_size,unsigned long fontFlat,unsigned long color,QString *familly);
 
 public slots:
-	void OnRecvRemoteVideo(unsigned long long sessionID);
+//	void OnRecvRemoteVideo(unsigned long long sessionID);
 	void OnUpdateUI();
 	void OnSetSpeaker(bool bSet);
 	void OnSpeakModeChange(int mode);
@@ -123,8 +123,8 @@ public slots:
 	void OnUserOffline(unsigned long long sessionID);
 	void OnSetAsBigVideo(unsigned long long sessionID);
 	void OnEnterRoom(unsigned int result);
-	void On_UI_StartVideoMonitor();
-	void On_UI_StopVideoMonitor();
+//	void On_UI_StartVideoMonitor();
+//	void On_UI_StopVideoMonitor();
 	void On_UI_RecvVideoSSRC(unsigned long long sessionID,unsigned int ssrc);
 	void On_UI_UpdateSoft(QString url);
 	void On_UI_NetEvent(unsigned int code);

@@ -1,4 +1,4 @@
-﻿生成启动时间为 2018/6/12 16:59:49。
+﻿生成启动时间为 2018/6/13 17:47:18。
      1>项目“D:\FFF\openmeeting3\openmeeting2\Meeting.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\OpenMeeting2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
@@ -38,10 +38,10 @@
      1>d:\fff\openmeeting3\openmeeting2\voicetestguide\WaveFile.h(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  D:\vs2010\VC\include\stdio.h(234) : 参见“fopen”的声明
      1>D:\FFF\openmeeting3\openmeeting2\GeneratedFiles\ui_AboutWidget.h(74): warning C4125: 十进制数字终止八进制转义序列
-     1>Room\RoomWdg.cpp(593): warning C4189: “y2”: 局部变量已初始化但不引用
-     1>Room\RoomWdg.cpp(592): warning C4189: “y”: 局部变量已初始化但不引用
-     1>Room\RoomWdg.cpp(594): warning C4189: “y3”: 局部变量已初始化但不引用
-     1>Room\RoomWdg.cpp(704): warning C4100: “result”: 未引用的形参
+     1>Room\RoomWdg.cpp(599): warning C4189: “y2”: 局部变量已初始化但不引用
+     1>Room\RoomWdg.cpp(598): warning C4189: “y”: 局部变量已初始化但不引用
+     1>Room\RoomWdg.cpp(600): warning C4189: “y3”: 局部变量已初始化但不引用
+     1>Room\RoomWdg.cpp(710): warning C4100: “result”: 未引用的形参
      1>c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(518): warning C4127: 条件表达式是常量
                  c:\qt\4.8.6\include\qtcore\../../src/corelib/tools/qlist.h(508): 编译类 模板 成员函数“void QList<T>::append(const T &)”时
                  with
@@ -319,4 +319,4 @@
 
 生成成功。
 
-已用时间 00:00:04.13
+已用时间 00:00:05.02

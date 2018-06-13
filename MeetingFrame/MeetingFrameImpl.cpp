@@ -187,24 +187,24 @@ bool MeetingFrameImpl::Init(HWND mainHWND,IMediaStreamEvent* pStreamEvent,std::s
 
 
 
-int MeetingFrameImpl::OnRecvRemoteVideo(uint64_t ulRemoteUserID ,unsigned long ulChannelID, uint32_t ulSSRC)
-{
-	if(m_pIZYMediaStreamManager)
-	{
-		//更新这个用户的属性，保存视频编号
-		Mutex::ScopedLock lock(m_Mutex);
-		UINT_VOID_MAP::Iterator item = m_mapOnlineUser.find(ulRemoteUserID);
-		if(item != m_mapOnlineUser.end())
-		{
-			PClient_Online_User_Info pInfo = (PClient_Online_User_Info)(item->second);
-			pInfo->ulVideoSSRC = ulSSRC;
-		}
-		//::PostMessage(m_mainHWND,WM_RECV_REMOTE_VIDEO,ulChannelID,ulRemoteUserID);
-		if(m_pEvent)
-			m_pEvent->On_MeetingEvent_RecvMyVideo(ulRemoteUserID,ulChannelID);
-	}
-	return 0;
-}
+//int MeetingFrameImpl::OnRecvRemoteVideo(uint64_t ulRemoteUserID ,unsigned long ulChannelID, uint32_t ulSSRC)
+//{
+//	if(m_pIZYMediaStreamManager)
+//	{
+//		//更新这个用户的属性，保存视频编号
+//		Mutex::ScopedLock lock(m_Mutex);
+//		UINT_VOID_MAP::Iterator item = m_mapOnlineUser.find(ulRemoteUserID);
+//		if(item != m_mapOnlineUser.end())
+//		{
+//			PClient_Online_User_Info pInfo = (PClient_Online_User_Info)(item->second);
+//			pInfo->ulVideoSSRC = ulSSRC;
+//		}
+//		//::PostMessage(m_mainHWND,WM_RECV_REMOTE_VIDEO,ulChannelID,ulRemoteUserID);
+//		if(m_pEvent)
+//			m_pEvent->On_MeetingEvent_RecvMyVideo(ulRemoteUserID,ulChannelID);
+//	}
+//	return 0;
+//}
 void MeetingFrameImpl::OnCloseRemoteVideo(uint64_t ulRemoteUserID,uint32_t ulChannelID)
 {
 	Mutex::ScopedLock lock(m_Mutex);
@@ -1263,18 +1263,18 @@ int  MeetingFrameImpl::GetRoomMode()
 	}
 }
 
-void MeetingFrameImpl::StartVideoMonitor()
-{
-	char subMsg[512] = {0};
-	sprintf(subMsg,"{\"cmd\":\"startVideoMonitor\"}");
-	MeetingConnImpl::GetInstance()->TransParentRoomCommand(0,subMsg);
-}
-void MeetingFrameImpl::StopVideoMonitor()
-{
-	char subMsg[512] = {0};
-	sprintf(subMsg,"{\"cmd\":\"stopVideoMonitor\"}");
-	MeetingConnImpl::GetInstance()->TransParentRoomCommand(0,subMsg);
-}
+//void MeetingFrameImpl::StartVideoMonitor()
+//{
+//	char subMsg[512] = {0};
+//	sprintf(subMsg,"{\"cmd\":\"startVideoMonitor\"}");
+//	MeetingConnImpl::GetInstance()->TransParentRoomCommand(0,subMsg);
+//}
+//void MeetingFrameImpl::StopVideoMonitor()
+//{
+//	char subMsg[512] = {0};
+//	sprintf(subMsg,"{\"cmd\":\"stopVideoMonitor\"}");
+//	MeetingConnImpl::GetInstance()->TransParentRoomCommand(0,subMsg);
+//}
 
 //暂停发送视频
 void MeetingFrameImpl::PauseVideo(uint64_t userId)
@@ -1300,16 +1300,16 @@ void MeetingFrameImpl::SendVideoSSRCToAdmin(uint64_t userId,uint32_t ssrc)
 	MeetingConnImpl::GetInstance()->TransParentRoomCommand(userId,subMsg);
 }
 
-void MeetingFrameImpl::OnStartVideoMonitor(){
-	if(m_pEvent){
-		m_pEvent->On_MeetingEvent_StartVideoMonitor();
-	}
-}
-void MeetingFrameImpl::OnStopVideoMonitor(){
-	if(m_pEvent){
-		m_pEvent->On_MeetingEvent_StopVideoMonitor();
-	}
-}
+//void MeetingFrameImpl::OnStartVideoMonitor(){
+//	if(m_pEvent){
+//		m_pEvent->On_MeetingEvent_StartVideoMonitor();
+//	}
+//}
+//void MeetingFrameImpl::OnStopVideoMonitor(){
+//	if(m_pEvent){
+//		m_pEvent->On_MeetingEvent_StopVideoMonitor();
+//	}
+//}
 void MeetingFrameImpl::OnPauseVideo(){
 	if(m_pEvent){
 		m_pEvent->On_MeetingEvent_PauseVideo();
